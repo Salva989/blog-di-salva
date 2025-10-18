@@ -1,13 +1,13 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://salva989.github.io/blog-facile/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Blog Facile'
 theme = 'PaperMod'
 
 [params]
   # Basic configuration
   env = "production"
-  description = "A Hugo site with PaperMod theme"
-  author = "Your Name"
+  description = "Un blog moderno e veloce con Hugo e PaperMod"
+  author = "Salva989"
   
   # Theme-specific settings
   ShowReadingTime = true
