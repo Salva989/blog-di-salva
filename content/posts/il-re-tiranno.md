@@ -1,7 +1,11 @@
+---
 title: "Il Re Tiranno e il Re Debole: Archetipi di Potere e Vulnerabilità"
 description: "Analisi psicologica del potere e della vulnerabilità attraverso gli archetipi del Re Tiranno e del Re Debole, con esempi storici e riflessioni sulle personalità contemporanee."
+draft: false
+date: 2025-10-18T15:44:57+02:00
+---
 
-Il Re Tiranno e il Re Debole
+# Il Re Tiranno e il Re Debole
 
 ![Re Tiranno](https://images.unsplash.com/photo-1568605114967-8130f3a36994?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyNjA3fDB8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MTk5MjM&ixlib=rb-4.0.3&q=80&w=1080)
 
