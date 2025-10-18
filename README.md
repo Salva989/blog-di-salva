@@ -1,6 +1,6 @@
-# Blog Facile
+# Blog di Salva
 
-Un blog moderno e veloce creato con Hugo e il tema PaperMod.
+Il blog personale di Salva - un blog moderno e veloce creato con Hugo e il tema PaperMod.
 
 ## 🚀 Funzionalità
 
@@ -28,8 +28,8 @@ Un blog moderno e veloce creato con Hugo e il tema PaperMod.
 
 1. Clona la repository:
 ```bash
-git clone https://github.com/Salva989/blog-facile.git
-cd blog-facile
+git clone https://github.com/Salva989/blog-di-salva.git
+cd blog-di-salva
 ```
 
 2. Inizializza i submodule per il tema:
