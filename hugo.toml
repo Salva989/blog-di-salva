@@ -1,6 +1,6 @@
-baseURL = 'https://salva989.github.io/blog-facile/'
+baseURL = 'https://salva989.github.io/blog-di-salva/'
 languageCode = 'en-us'
-title = 'Blog Facile'
+title = 'blog di Salva'
 theme = 'PaperMod'
 
 [params]

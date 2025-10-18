@@ -6,7 +6,7 @@ title = 'About'
 
 # About Me
 
-Welcome to my blog! This site is built with Hugo and uses the beautiful PaperMod theme.
+Welcome to my awesome blog! This site is built with Hugo and uses the beautiful PaperMod theme.
 
 ## What you'll find here
 
@@ -15,4 +15,4 @@ Welcome to my blog! This site is built with Hugo and uses the beautiful PaperMod
 - Project updates
 - And much more!
 
-Feel free to explore and get in touch if you have any questions.
+Feel free to explore and get in touch if you have any questions
