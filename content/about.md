@@ -1,10 +1,5 @@
-+++
-date = '2025-10-18T13:48:11+02:00'
-draft = false
-title = 'Presentazione più che generale'
-+++
 
-# About Me 🌟
+# About Me 🌟 
 
 Sono Salva 🌍 e questo è tutto quello che c'è da sapere su di me. Il poeta latino Virgilio una volta disse: **"Non omnis moriar"** - "Non morirò del tutto". Attraverso questo blog, spero di lasciare un'impronta duratura condividendo le mie idee, esperienze e passioni con il mondo ma anche se non succedesse non me ne importa proprio.
 
