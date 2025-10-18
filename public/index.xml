@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Oct 2025 13:48:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sat, 18 Oct 2025 13:48:16 +0200</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Welcome to my new Hugo blog with PaperMod theme!</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 18 Oct 2025 13:48:11 +0200</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;p&gt;Welcome to my blog! This site is built with Hugo and uses the beautiful PaperMod theme.&lt;/p&gt;
+&lt;h2 id=&#34;what-youll-find-here&#34;&gt;What you&amp;rsquo;ll find here&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Technical articles&lt;/li&gt;
+&lt;li&gt;Personal thoughts&lt;/li&gt;
+&lt;li&gt;Project updates&lt;/li&gt;
+&lt;li&gt;And much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Feel free to explore and get in touch if you have any questions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
