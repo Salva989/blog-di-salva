@@ -1,0 +1,22 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm)
+node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
