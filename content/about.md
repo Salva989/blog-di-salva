@@ -1,7 +1,7 @@
 
 # About Me 🌟 
 
-Sono Salva 🌍 e questo è tutto quello che c'è da sapere su di me. Il poeta latino Virgilio una volta disse: **"Non omnis moriar"** - "Non morirò del tutto". Attraverso questo blog, spero di lasciare un'impronta duratura condividendo le mie idee, esperienze e passioni con il mondo ma anche se non succedesse non me ne importa proprio.
+Sono Salva 🌍 e questo è tutto quello che c'è da sapere su di me. Il poeta latino Orazio una volta disse: **"Non omnis moriar"** - "Non morirò del tutto". Attraverso questo blog, spero di lasciare un'impronta duratura condividendo le mie idee, esperienze e passioni con il mondo ma anche se non succedesse non me ne importa proprio.
 
 ## What you'll find here 📝
 
