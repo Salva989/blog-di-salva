@@ -7,7 +7,7 @@ tags = ["patreon", "creator economy", "web3", "social media"]
 categories = ["Technology", "Culture"]
 +++
 
-https://www.youtube.com/watch?v=5zUndMfMInc
+https://www.youtube.com/watch?v=5zUndMfMInchttps://www.youtube.com/watch?v=5zUndMfMInc
 
 🌍 1. Struttura e tono
 
