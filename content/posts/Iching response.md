@@ -1,8 +1,6 @@
----
-title: I Ching Oracle Reading
-date: 1 gennaio 2026 alle ore 14:38
----
-
+date: 2024-12-01
+date: 2024-12-01T10:30:00Z
+date: 2024-12-01T10:30:00+01:00
 <div align="center">
 
 # 🪙 I Ching Oracle
