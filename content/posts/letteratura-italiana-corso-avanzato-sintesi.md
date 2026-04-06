@@ -1,7 +1,7 @@
 +++
 title = "Sintesi, Letteratura italiana, corso avanzato"
 date = 2026-04-06T15:40:00Z
-draft = true
+draft = false
 summary = "Sintesi ragionata sugli appunti di letteratura italiana: Dante, Parini, Illuminismo e struttura della Commedia."
 +++
 
