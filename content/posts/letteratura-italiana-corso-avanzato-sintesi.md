@@ -1,11 +1,13 @@
 +++
 title = "Sintesi, Letteratura italiana, corso avanzato"
 date = 2026-04-06T15:40:00Z
-draft = false
-summary = "Sintesi ragionata sugli appunti di letteratura italiana: Dante, Parini, Illuminismo e struttura della Commedia."
+draft = true
+summary = "Sintesi parziale degli appunti di letteratura italiana, in attesa di revisione completa del file sorgente."
 +++
 
-# Sintesi, Letteratura italiana, corso avanzato
+# Sintesi parziale, Letteratura italiana, corso avanzato
+
+> Nota: questo post è temporaneamente una **sintesi parziale** del materiale disponibile. Verrà aggiornato con una versione completa dopo la revisione integrale del PDF.
 
 ## Ironia e sorriso nella Commedia di Dante
 L’ironia in Dante non è un semplice abbellimento retorico. Serve a smascherare i vizi umani e ha una funzione morale precisa. Il sorriso dantesco non alleggerisce davvero il giudizio, ma lo rende più incisivo, perché unisce osservazione concreta della realtà e significato teologico.
