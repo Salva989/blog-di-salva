@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Earthquake.md",
+                "file": "matcha-tea-why-i-love-it.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Earthquake"
+              "title": "matcha-tea-why-i-love-it"
             }
           }
         ],
@@ -201,12 +201,14 @@
   },
   "active": "30025cb48dee3999",
   "lastOpenFiles": [
+    "Ospitare blog sottocartella (SEO).md",
+    "matcha-tea-why-i-love-it.md",
+    "jack-conte-talk.md",
+    "Earthquake.md",
     "eneide iv libro.md",
     "Iching response.md",
     "letteratura-italiana-corso-avanzato-sintesi.md",
     "jackcont.md",
-    "Ospitare blog sottocartella (SEO).md",
-    "jack-conte-talk.md",
     "my-first-post.md",
     "Storia_medievale.md"
   ]
