@@ -8,6 +8,8 @@ title = "Letteratura latina medievale"
 
 All'inizio il cristianesimo è una religione perseguitata, anche perché il suo monoteismo è incompatibile con il culto dell'imperatore, considerato nel mondo romano una figura quasi divina.
 
+![[Pasted image 20260602155425.png]]
+
 I sudditi dell'impero erano tenuti a partecipare ai sacrifici pubblici e al culto imperiale; i cristiani rifiutavano questa pratica.
 
 La situazione cambia con Costantino. Nel 313, con l'editto di Milano, il cristianesimo viene riconosciuta come religione lecita nell'impero. In realtà già Galerio, nel 311, aveva emanato un editto di tolleranza, ma nella memoria storica è rimasto soprattutto il ruolo di Costantino. La scelta di Costantino non va letta solo come conversione personale, ma anche come decisione politica: invece di combattere una religione ormai molto diffusa, l’imperatore comprende che la Chiesa, con la sua struttura organizzata, può diventare un alleato prezioso per il potere imperiale.
