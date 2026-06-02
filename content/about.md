@@ -1,9 +1,9 @@
 
 # About Me 🌟
 
-Ciao, sono Salva 🌍.
+Ciao, sono Salva 🌍 e questo è tutto che c'è da sapere su di me ahah... scherzo. Il poeta latino Orazio uan volta disse : "Non omnis moriar” - “Non morirò del tutto”. Attraverso questo blog, spero di lasciare un’impronta duratura in tutto il mondo condividendo le mie idee, esperienze e passioni  ma anche se non succedesse non me ne importa proprio.
 
-Ho iniziato il mio percorso studiando Informatica presso l’Università degli Studi di Salerno, ma ho scelto di seguire una strada diversa. Oggi sono un hacker indipendente e studio Lettere Moderne presso l’Università Statale di Milano.
+Ho iniziato il mio percorso studiando Informatica presso l’Università degli Studi di Salerno, ma ho scelto di seguire una strada diversa perchè ero circondato da individui alquanto strani che amavano trasorrere il tempo da soli vicino ad un computer, tutto questo prima di chatgpt ahah. Oggi sono un hacker indipendente e studio Lettere Moderne presso l’Università Statale di Milano.
 
 In questo blog raccolgo i miei progetti, le idee che sto sviluppando, gli appunti di studio e alcune riflessioni personali. Lo considero uno spazio aperto in cui documentare ciò che imparo, costruisco ed esploro nel tempo.
 
