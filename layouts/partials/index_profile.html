@@ -31,13 +31,6 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <div class="radio-player" style="margin-top:12px;">
-            <audio class="audio-player" controls preload="none" style="width:100%; max-width:100%;">
-                <source src="https://stream.salvamagno.com/live.mp3" type="audio/mpeg">
-                Il tuo browser non supporta l'audio HTML5.
-            </audio>
-            <p style="font-size:0.95rem;margin-top:8px;">Ascolta la mia radio — nota: non è sempre online; se è online vuol dire che sto oziando.</p>
-        </div>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" -}}
 
