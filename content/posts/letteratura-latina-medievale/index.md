@@ -8,7 +8,7 @@ title = "Letteratura latina medievale"
 
 All'inizio il cristianesimo è una religione perseguitata, anche perché il suo monoteismo è incompatibile con il culto dell'imperatore, considerato nel mondo romano una figura quasi divina.
 
-![[Pasted image 20260602155425.png]]
+![Pasted image 20260602155425](Pasted%20image%2020260602155425.png)
 
 I sudditi dell'impero erano tenuti a partecipare ai sacrifici pubblici e al culto imperiale; i cristiani rifiutavano questa pratica.
 
