@@ -1,10 +1,15 @@
 
-# About Me 🌟 
+# About Me 🌟
 
-Sono Salva 🌍 e questo è tutto quello che c'è da sapere su di me. Il poeta latino Orazio una volta disse: **"Non omnis moriar"** - "Non morirò del tutto". Attraverso questo blog, spero di lasciare un'impronta duratura condividendo le mie idee, esperienze e passioni con il mondo ma anche se non succedesse non me ne importa proprio.
+Ciao, sono Salva 🌍.
 
-## What you'll find here 📝
+Ho iniziato il mio percorso studiando Informatica presso l’Università degli Studi di Salerno, ma ho scelto di seguire una strada diversa. Oggi sono un hacker indipendente e studio Lettere Moderne presso l’Università Statale di Milano.
 
-ricette di cucina, esperimenti chimici o biologici o altro 
+In questo blog raccolgo i miei progetti, le idee che sto sviluppando, gli appunti di studio e alcune riflessioni personali. Lo considero uno spazio aperto in cui documentare ciò che imparo, costruisco ed esploro nel tempo.
 
-Feel free to explore and get in touch if you have any questions. ( perfavore non farlo)
+## Cosa troverai qui 📝
+Questo è il mio angolo di Internet.
+
+Troverai i miei progetti, note di studio, articoli su temi che mi interessano e risorse che ritengo utili o interessanti. Non segue una linea editoriale precisa: è semplicemente il luogo in cui condivido il mio percorso.
+
+Se qualcosa ti interessa, sentiti libero di esplorare i contenuti e i progetti pubblicati. Eventuali contatti, confronti o collaborazioni sono sempre benvenuti.
