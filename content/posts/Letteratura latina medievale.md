@@ -1,7 +1,7 @@
 +++
 date = "2026-06-02T12:00:00+02:00"
 draft = false
-title = "Post di esempio"
+title = "Letteratura latina medievale"
 +++
 
 ## Diffusione del cristianesimo
