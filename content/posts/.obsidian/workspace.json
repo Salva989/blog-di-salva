@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Struttura di jack-conte-talk"
             }
+          },
+          {
+            "id": "cdc0fb738a3560f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8309719caac0e4ab",
+  "active": "5ba8422bd10aa5c1",
   "lastOpenFiles": [
     "Letteratura latina medievale.md",
     "Letteratura latina medievale.md",
