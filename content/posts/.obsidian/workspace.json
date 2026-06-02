@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Letteratura latina medievale.md",
+                "file": "letteratura-latina-medievale/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Letteratura latina medievale"
+              "title": "index"
             }
           }
         ]
@@ -196,9 +196,11 @@
   },
   "active": "8309719caac0e4ab",
   "lastOpenFiles": [
+    "letteratura-latina-medievale/Pasted image 20260602155425.png",
+    "Letteratura latina medievale.md",
+    "letteratura-latina-medievale/index.md",
+    "letteratura-latina-medievale",
     "Pasted image 20260602155425.png",
-    "Letteratura latina medievale.md",
-    "Letteratura latina medievale.md",
     "Earthquake.md",
     "eneide iv libro.md",
     "Film ita.md",
