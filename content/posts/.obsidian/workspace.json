@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2eefd4163bf5861c",
+            "id": "8309719caac0e4ab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Letteratura latina medievale.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "Letteratura latina medievale"
             }
           }
         ]
@@ -180,9 +184,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ba8422bd10aa5c1",
+  "active": "8309719caac0e4ab",
   "lastOpenFiles": [
-    "post-di-esempio.md",
+    "Letteratura latina medievale.md",
+    "Letteratura latina medievale.md",
+    "Earthquake.md",
     "eneide iv libro.md",
     "Film ita.md",
     "Iching response.md",
@@ -196,7 +202,6 @@
     "my-first-post.md",
     "Ospitare blog sottocartella (SEO).md",
     "Storia_medievale.md",
-    "Una traduzione in inglese di un video che non capisco.md",
-    "Earthquake.md"
+    "Una traduzione in inglese di un video che non capisco.md"
   ]
 }
