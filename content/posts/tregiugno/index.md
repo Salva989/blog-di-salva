@@ -18,7 +18,7 @@ spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di 
 
 ore 10:30
 
-ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per poterci lavorare adesso inizio a lavorarci creo un progetto e aggiungo i dati he mi servono 
+ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per poterci lavorare adesso inizio a lavorarci creo un progetto e aggiungo i dati che mi servono 
 
 ore 11:50
 
