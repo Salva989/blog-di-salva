@@ -1,4 +1,11 @@
++++
+date = "2026-06-03T12:00:00+02:00"
+draft = false
+title = "Critica e teoria della letteratura"
++++
+
 ## Lezione 1
+
 
 # Che cos’è la teoria della letteratura?
 
