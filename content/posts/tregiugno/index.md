@@ -95,5 +95,22 @@ ore 12:36
 
 Pulizia stoviglie 
 
+ore 12:40
+
+Fine pulizia stoviglie. 
+
+## idea canzone
+
+poveri braccianti della Lucania 
+poveri braccianti della Lucania 
+aiutiamo a creare un dibattito 
+su diritti dei lavoratori agricoli 
+
+fine 
+
+ore 12:44
+
+spazzolino 
+
 
 
