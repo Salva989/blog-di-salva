@@ -31,5 +31,9 @@ Quanto può essere intensa la percezione del tempo ? La consapevolezza dello sco
 prompt: sei uno schiavo e ti trovi nella caverna di Platone, hai appena battuto la testa non ricordi nulla decidi di fare una piccola ricerca web.
 che cosa cerchi ?
 
+Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godermi immersioni non troppo impegnative. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
+
+Devo pulire le stoviglie.
+
 
 
