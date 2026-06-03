@@ -9,7 +9,7 @@ ore 6:00
 Distanza 10.01 km
 Durata 01:12:23
 Calorie 692
-![[Pasted image 20260603141812.jpg]]
+![Corsa](Pasted%20image%2020260603141812.jpg)
 ore 9:00
 
 spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di pasta, una busta d'insalata e 4 litri di acqua ( tot 4,30 euro)

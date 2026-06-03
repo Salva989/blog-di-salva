@@ -11,12 +11,14 @@
             "id": "8309719caac0e4ab",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "tregiugno/Pasted image 20260603141911.jpg"
+                "file": "tregiugno/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260603141911"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -192,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ba8422bd10aa5c1",
+  "active": "8309719caac0e4ab",
   "lastOpenFiles": [
+    "tregiugno/Pasted image 20260603141911.jpg",
     "Critica e teoria della letteratura/Critica e teoria della letteratura (o).md",
     "Critica e teoria della letteratura/Critica e teoria della letteratura  (1).md",
     "tregiugno/index.md",
-    "tregiugno/Pasted image 20260603141911.jpg",
     "Critica e teoria della letteratura/Pasted image 20260603142759.jpg",
     "Critica e teoria della letteratura/Pasted image 20260603134624.jpg",
     "Critica e teoria della letteratura/Pasted image 20260603130949.jpg",
