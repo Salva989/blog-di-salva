@@ -31,6 +31,33 @@ Quanto può essere intensa la percezione del tempo ? La consapevolezza dello sco
 prompt: sei uno schiavo e ti trovi nella caverna di Platone, hai appena battuto la testa non ricordi nulla decidi di fare una piccola ricerca web.
 che cosa cerchi ?
 
+risposta: Cercherei prima qualcosa di **semplicissimo e urgente**, non “la verità” in astratto.
+
+Scriverei:
+
+**“dove sono?”**
+
+Poi, se vedo solo ombre e catene, cercherei:
+
+**“perché vedo solo ombre sul muro?”**
+
+Subito dopo:
+
+**“come capire se la realtà che vedo è vera?”**
+
+E poi, quando comincio a intuire che forse sono stato prigioniero per tutta la vita:
+
+**“Platone mito della caverna spiegazione semplice”**
+
+Ma la ricerca più importante sarebbe questa:
+
+**“come uscire dalla caverna senza impazzire”**
+
+Perché il problema non è solo scoprire che il mondo era falso.  
+Il problema è reggere la luce quando hai vissuto sempre al buio.
+
+
+
 Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godermi immersioni non troppo impegnative. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
 
 Devo pulire le stoviglie.
