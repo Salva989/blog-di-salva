@@ -28,6 +28,8 @@ ore 12:17
 
 Quanto può essere intensa la percezione del tempo ? La consapevolezza dello scorrere del tempo porta alla follia o i folli sono coloro che non ci fanno caso?  
 
+La **funzione referenziale** riguarda il contesto. Quando, per esempio, in un romanzo vengono fornite informazioni su ciò che è accaduto, su dove ci troviamo o su quale sia la situazione, viene privilegiata la funzione referenziale.
+
 prompt: sei uno schiavo e ti trovi nella caverna di Platone, hai appena battuto la testa non ricordi nulla decidi di fare una piccola ricerca web.
 che cosa cerchi ?
 
@@ -111,6 +113,11 @@ fine
 ore 12:44
 
 spazzolino 
+
+
+ore 13:00 
+
+le sudate carte
 
 
 
