@@ -9,7 +9,7 @@ ore 6:00
 Distanza 10.01 km
 Durata 01:12:23
 Calorie 692
-
+![[Pasted image 20260603141812.jpg]]
 ore 9:00
 
 spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di pasta, una busta d'insalata e 4 litri di acqua ( tot 4,30 euro)
@@ -21,12 +21,10 @@ ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per p
 ore 11:50
 
 inizio a preparare il pranzo ho completato una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con le uova . 
-
+![[Pasted image 20260603141911.jpg]]
 ore 12:17
 
 Quanto può essere intensa la percezione del tempo ? La consapevolezza dello scorrere del tempo porta alla follia o i folli sono coloro che non ci fanno caso?  
-
-La **funzione referenziale** riguarda il contesto. Quando, per esempio, in un romanzo vengono fornite informazioni su ciò che è accaduto, su dove ci troviamo o su quale sia la situazione, viene privilegiata la funzione referenziale.
 
 prompt: sei uno schiavo e ti trovi nella caverna di Platone, hai appena battuto la testa non ricordi nulla decidi di fare una piccola ricerca web.
 che cosa cerchi ?
