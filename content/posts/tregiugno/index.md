@@ -28,6 +28,8 @@ ore 12:17
 
 Quanto può essere intensa la percezione del tempo ? La consapevolezza dello scorrere del tempo porta alla follia o i folli sono coloro che non ci fanno caso?  
 
+prompt: sei uno schiavo e ti trovi nella caverna di Platone, hai appena battuto la testa non ricordi nulla decidi di fare una piccola ricerca web.
+che cosa cerchi ?
 
 
 
