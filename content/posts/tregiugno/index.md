@@ -22,6 +22,12 @@ ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per p
 
 ore 11:50
 
-inizio a preparare il pranzo ho completato una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con le uova .  
+inizio a preparare il pranzo ho completato una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con le uova . 
+
+ore 12:17
+
+Quanto può essere intensa la percezione del tempo ? La consapevolezza dello scorrere del tempo porta alla follia o i folli sono coloro che non ci fanno caso?  
+
+
 
 
