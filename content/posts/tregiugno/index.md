@@ -56,11 +56,44 @@ Ma la ricerca più importante sarebbe questa:
 Perché il problema non è solo scoprire che il mondo era falso.  
 Il problema è reggere la luce quando hai vissuto sempre al buio.
 
+domanda: cioè mi stai dicendo che dopo un trauma cranico saresti in grado di distinguere le ombre dagli oggetti reali ?
 
+risposta: No, esattamente il contrario.
 
-Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godermi immersioni non troppo impegnative. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
+Dopo un trauma cranico **non sarei affatto sicuro** di distinguere ombre, oggetti reali, ricordi, allucinazioni o interpretazioni sbagliate. Per questo la prima ricerca sensata non sarebbe filosofica, ma quasi medica/esistenziale:
+
+**“ho battuto la testa, cosa devo fare?”**
+
+Poi:
+
+**“come capire se sto avendo confusione dopo trauma cranico”**
+
+E solo dopo, forse:
+
+**“come verificare se ciò che vedo è reale”**
+
+Quindi nella caverna di Platone, con amnesia e trauma, il punto non sarebbe dire: “ah, quelle sono ombre e fuori c’è il vero mondo”.
+
+Sarebbe molto più fragile:
+
+> “vedo qualcosa, ma non so se posso fidarmi di ciò che vedo.”
+
+La vera prima mossa non è distinguere la realtà.  
+È riconoscere che **la mia percezione potrebbe essere compromessa**.
+
+In quel caso cercherei conferme esterne: qualcuno che mi parli, un corpo, una ferita, una fonte di luce, un suono, un contatto. Non perché so già cosa è vero, ma perché ho bisogno di costruire lentamente una verifica.
+
+Quindi sì: la mia risposta precedente era troppo lucida per uno che ha appena sbattuto la testa.
+
+## al mare 
+
+Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godere delle immersioni non troppo impegnative. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
 
 Devo pulire le stoviglie.
+
+ore 12:36
+
+Pulizia stoviglie 
 
 
 
