@@ -22,6 +22,6 @@ ho caricato gli appunti di critica e teoria e li ho convertiti in .md per poterc
 
 ore 11:50
 
-inizio a preparare il pranzo ho completato di sistemare una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con el uova .  
+inizio a preparare il pranzo ho completato di sistemare una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con le uova .  
 
 
