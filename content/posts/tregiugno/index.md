@@ -13,6 +13,7 @@ ore 9:00
 
 ![[Gemini_Generated_Image_7buy8r7buy8r7buy.png]]
 
+![Corsa](Gemini_Generated_Image_7buy8r7buy8r7buy.png)
 
 
 spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di pasta, una busta d'insalata e 4 litri di acqua ( tot 4,30 euro)
