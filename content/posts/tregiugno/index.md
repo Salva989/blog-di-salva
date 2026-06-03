@@ -89,7 +89,7 @@ Quindi sì: la mia risposta precedente era troppo lucida per uno che ha appena s
 
 ## al mare 
 
-Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godere delle immersioni non troppo impegnative. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
+Finalmente , due mesi di vacanza. li trascorrerò al mare. Non vedo l'ora di godere delle numerosi immersioni non troppo impegnative che mi aspettano. Vorrei sperimentare la giusta profondità che ti tiene lontano dalle persone senza rischiare la vita.
 
 Devo pulire le stoviglie.
 
@@ -118,6 +118,16 @@ spazzolino
 ore 13:00 
 
 le sudate carte
+
+ore 13:48
+
+pensiero orrificante
+
+nel migliore dei casi invecchierò lentamente e da solo, nel peggiore la vita sarà stata un'attimo fugace; in ogni caso ricorderò per sempre i suoi lunghi capelli scuri. 
+
+
+
+
 
 
 
