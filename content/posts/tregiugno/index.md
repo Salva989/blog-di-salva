@@ -4,8 +4,6 @@ draft = false
 title = "Un simpatico mercoledì di Giugno"
 +++
 
-## Oggi 03/06/ 2026
-
 ore 6:00 
 
 Distanza 10.01 km
@@ -123,7 +121,7 @@ ore 13:48
 
 pensiero orrificante
 
-nel migliore dei casi invecchierò lentamente e da solo, nel peggiore la vita sarà stata un'attimo fugace; in ogni caso ricorderò per sempre i suoi lunghi capelli scuri. 
+nel migliore dei casi invecchierò lentamente e da solo, nel peggiore la vita sarà stata un'attimo fugace; in ogni caso ricorderò per sempre quella volta a Rozzano...
 
 
 
