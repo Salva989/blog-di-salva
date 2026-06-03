@@ -9,19 +9,24 @@ ore 6:00
 Distanza 10.01 km
 Durata 01:12:23
 Calorie 692
-![Corsa](Pasted%20image%2020260603141812.jpg)
 ore 9:00
 
+![[Gemini_Generated_Image_7buy8r7buy8r7buy.png]]
+
+
+
 spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di pasta, una busta d'insalata e 4 litri di acqua ( tot 4,30 euro)
-![[Pasted image 20260603141350.jpg]]
+
 ore 10:30
 
 ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per poterci lavorare adesso inizio a lavorarci creo un progetto e aggiungo i dati che mi servono 
 
+
+
 ore 11:50
 
 inizio a preparare il pranzo ho completato una lezione e mezzo di critica , ho una mozzarella , verrà aggiunta all insalata con le uova . 
-![[Pasted image 20260603141911.jpg]]
+
 ore 12:17
 
 Quanto può essere intensa la percezione del tempo ? La consapevolezza dello scorrere del tempo porta alla follia o i folli sono coloro che non ci fanno caso?  
