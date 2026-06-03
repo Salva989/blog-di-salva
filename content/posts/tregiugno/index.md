@@ -13,7 +13,7 @@ Calorie 692
 ore 9:00
 
 spesa: ho comprato un pacco di pasta, una scatola di ceci , 2 uova, un pacco di pasta, una busta d'insalata e 4 litri di acqua ( tot 4,30 euro)
-
+![[Pasted image 20260603141350.jpg]]
 ore 10:30
 
 ho caricato gli appunti di critica e teoria e li ho convertiti in markdown per poterci lavorare adesso inizio a lavorarci creo un progetto e aggiungo i dati che mi servono 
