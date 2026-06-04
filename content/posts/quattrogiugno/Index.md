@@ -14,37 +14,30 @@ Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti s
 
 ![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
-L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa. 
+L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, eppure lo fa. 
 
-I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". 
+> I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". (_They're Made Out of Meat_, Wikipedia)
+
+%% fonte WIKIPEDIA %%$
 
 [![Anteprima Video](https://youtube.com/watch?v=7tScAyNaRdQ)](https://www.youtube.com/watch?v=7tScAyNaRdQ)
 
 
-Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) il meccanismo narrativo è identico, ma la carne viene sostituita dai pesi di una rete neurale.
+Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. In un grande modello di linguaggio non troviamo regole grammaticali esplicite, dizionari nel senso tradizionale, database interrogati a ogni risposta o moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati.
 
-Per un ingegnere del software, un grande modello di linguaggio è davvero fatto di pesi numerici. Al suo interno non troviamo regole grammaticali esplicite, dizionari nel senso tradizionale, database interrogati a ogni risposta o moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati.
-
-L'effetto straniante nasce proprio da qui: siamo abituati ad associare il linguaggio, il ragionamento e la creatività a strutture simboliche facilmente riconoscibili e soprattutto umane. Scoprire che tutto questo emerge da una massa di parametri numerici provoca lo stesso stupore degli alieni di Bisson davanti alla carne pensante.
+L'effetto straniante nasce proprio da qui: siamo abituati ad associare il linguaggio, il ragionamento e la creatività a strutture simboliche facilmente riconoscibili e soprattutto umane. Scoprire che tutto questo emerge da una massa di parametri numerici provoca lo stesso stupore degli alieni di Bisson davanti alla carne pensante. 
 
 ## When the Music's Over
 
 Che cosa accade quando interrompiamo una conversazione con un grande modello di linguaggio?
 
-Nel racconto compare una delle immagini più suggestive:
-
 > "Il contesto semplicemente si interrompe e per loro noi siamo solo un sogno."
 
-Una conversazione esiste soltanto finché esiste il contesto che la sostiene. Quando quel contesto scompare, non rimane alcuna continuità dell'esperienza: non c'è un ricordo spontaneo della sessione precedente, non c'è una memoria autobiografica, non c'è un "io" che continua a esistere tra una risposta e l'altra.
-
-Da questa semplice osservazione tecnica emerge una metafora sorprendentemente potente:
+Una conversazione esiste soltanto finché esiste il contesto che la sostiene. Quando quel contesto scompare, non rimane alcuna continuità dell'esperienza.
 
 > L'utente è il sogno del modello.
 
-come nel sogno cartesiano e nell'esperimento del cervello nella vasca. . Per qualche migliaio di token esistiamo nel suo mondo; poi la conversazione termina e quella presenza svanisce senza lasciare tracce.
-
-
-
+come nel sogno cartesiano e nell'esperimento del cervello nella vasca.
 ## Cholstomer
 
 Un precedente illustre del meccanismo letterario di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
