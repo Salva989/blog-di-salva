@@ -40,7 +40,7 @@ come nel sogno cartesiano e nell'esperimento del cervello nella vasca. . Per qua
 
 ## Cholstomer
 
-Un precedente illustre del meccanismo di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
+Un precedente illustre del meccanismo letterario di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
 
 Il narratore è un cavallo, quindi osserva il mondo umano da una prospettiva aliena. Naturalmente si tratta di un cavallo umanizzato, perché è comunque un prodotto intellettuale e letterario; tuttavia, il suo punto di vista non coincide con quello umano. Proprio questa alterità produce straniamento.
 
