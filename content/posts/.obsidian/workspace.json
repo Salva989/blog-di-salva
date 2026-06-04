@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quattrogiugno/Index.md",
+                "file": "quattrogiugno/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "index"
             }
           }
         ],
@@ -213,6 +213,7 @@
   "lastOpenFiles": [
     "quattrogiugno/Gemini_Generated_Image_jn7azxjn7azxjn7a.png",
     "quattrogiugno/Index.md",
+    "quattrogiugno/index.md",
     "tregiugno/index.md",
     "tregiugno/Pasted image 20260604082958.jpg",
     "quattrogiugno/Pasted image 20260604120710.jpg",
