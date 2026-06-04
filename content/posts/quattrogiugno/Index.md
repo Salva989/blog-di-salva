@@ -12,6 +12,8 @@ Nel racconto _They're Made Out of Meat_ di Terry Bisson, due alieni scoprono che
 > 
 > "Sì, la carne pensa."
 
+![](Pasted%image%20260604120710)
+
 L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa.
 
 Nell'articolo _They're Made Out of Weights_ il meccanismo narrativo è identico, ma la carne viene sostituita dai pesi di una rete neurale.
