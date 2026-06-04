@@ -1,5 +1,9 @@
 
-+++ date = "2026-06-03T12:00:00+02:00" draft = false title = "Un simpatico mercoledì di Giugno" +++
++++ 
+date = "2026-06-03T12:00:00+02:00" 
+draft = false 
+title = "Un simpatico mercoledì di Giugno" 
++++
 
 ## Bilancio della giornata
 
