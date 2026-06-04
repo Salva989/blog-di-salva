@@ -22,7 +22,7 @@ L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli
 
 %% fonte WIKIPEDIA %%$
 
-[![Anteprima Video](https://youtube.com/watch?v=7tScAyNaRdQ)](https://www.youtube.com/watch?v=7tScAyNaRdQ)
+<video src="https://www.youtube.com/watch?v=7tScAyNaRdQ" width="100%" controls></video>
 
 
 Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. Un grande modello di linguaggio non funziona attraverso regole grammaticali esplicite, dizionari nel senso tradizionale o singoli database interrogati ad ogni risposta ne tantomeno moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati( cioè altri numeri).
