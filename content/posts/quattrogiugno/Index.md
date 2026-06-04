@@ -6,7 +6,7 @@ title = "ma che cavolo"
 +++
 ## La carne pensa?
 
-Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
+Nel racconto _They're Made Out of Meat_ di Terry Bisson, due esseri intelligenti scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
 
 > "La carne pensa?"
 > 
@@ -16,16 +16,21 @@ Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti s
 
 L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, eppure lo fa. 
 
-> I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". (_They're Made Out of Meat_, Wikipedia)
+> I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". 
+> 
+> (_They're Made Out of Meat_, Wikipedia)
 
 %% fonte WIKIPEDIA %%$
 
 [![Anteprima Video](https://youtube.com/watch?v=7tScAyNaRdQ)](https://www.youtube.com/watch?v=7tScAyNaRdQ)
 
 
-Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. In un grande modello di linguaggio non troviamo regole grammaticali esplicite, dizionari nel senso tradizionale, database interrogati a ogni risposta o moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati.
+Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. In un grande modello di linguaggio non troviamo regole grammaticali esplicite, dizionari nel senso tradizionale o singoli database interrogati ad ogni risposta ne tantomeno moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati( cioè altri numeri).
 
-L'effetto straniante nasce proprio da qui: siamo abituati ad associare il linguaggio, il ragionamento e la creatività a strutture simboliche facilmente riconoscibili e soprattutto umane. Scoprire che tutto questo emerge da una massa di parametri numerici provoca lo stesso stupore degli alieni di Bisson davanti alla carne pensante. 
+Dunque da dove deriva quella strana sensazione che percepiamo quando ci troviamo di fronte ad un racconto come "*Sono fatti di carne*".
+
+Siamo abituati ad associare il linguaggio, il ragionamento e la creatività a strutture simboliche facilmente riconoscibili e soprattutto umane. Anzi per noi il linguaggio è qualcosa di sacro: il verbo che diventa carne è per i cristiani la definizione letterale di Gesù Cristo. Scoprire che tutto questo emerge da una massa di parametri numerici provoca lo stesso stupore degli alieni di Bisson davanti alla carne pensante. 
+
 
 ## When the Music's Over
 
