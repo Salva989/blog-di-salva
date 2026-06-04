@@ -38,6 +38,8 @@ Da questa semplice osservazione tecnica emerge una metafora sorprendentemente po
 
 come nel sogno cartesiano e nell'esperimento del cervello nella vasca. . Per qualche migliaio di token esistiamo nel suo mondo; poi la conversazione termina e quella presenza svanisce senza lasciare tracce.
 
+
+
 ## Cholstomer
 
 Un precedente illustre del meccanismo letterario di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
