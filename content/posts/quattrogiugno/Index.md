@@ -8,9 +8,9 @@ title = "ma che cavolo"
 
 Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
 
-> "La carne pensa?"
+> -"La carne pensa?"
 > 
-> "Sì, la carne pensa."
+> "Sì, la carne pensa."-
 
 ![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
@@ -53,7 +53,5 @@ Dal punto di vista del cavallo, gli uomini sembrano impegnati in un gioco lingui
 Attraverso questa prospettiva aliena, Tolstoj mostra per **diffrazione** l’assurdità del concetto di proprietà privata. Il cavallo non comprende come un essere vivente possa possedere qualcosa d’altro. Non ne avverte il senso e non capisce perché gli uomini si intestardiscano tanto in questo gioco di parole.
 
 La visione del mondo del cavallo è incompatibile con quella umana. Il lettore deve faticare per comprendere ciò che Cholstomer vuole dire. Deve tornare più volte sullo stesso punto. Ma proprio questa fatica produce un effetto importante: nel momento in cui il lettore riconosce l’oggetto del discorso, cioè la proprietà privata, esso gli viene restituito come se lo vedesse per la prima volta.
-
-Lo straniamento, dunque, non serve semplicemente a rendere il testo difficile. Serve a restituire al lettore una visione nuova di ciò che l’abitudine aveva reso invisibile.
 
 
