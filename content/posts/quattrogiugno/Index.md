@@ -22,7 +22,7 @@ L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli
 
 %% fonte WIKIPEDIA %%$
 
-<video src="https://www.youtube.com/watch?v=7tScAyNaRdQ" width="100%" controls></video>
+<video src="https://www.youtube.com/watch?v=7tScAyNaRdQ" width="100%" controls></video><iframe width="100%" height="400" src="https://www.youtube.com/embed?v=7tScAyNaRdQ" frameborder="0" allowfullscreen></iframe>
 Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. Un grande modello di linguaggio non funziona attraverso regole grammaticali esplicite, dizionari nel senso tradizionale o singoli database interrogati ad ogni risposta ne tantomeno moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati( cioè altri numeri).
 
 Dunque da dove deriva quella strana sensazione che percepiamo quando ci troviamo di fronte ad un racconto come "*Sono fatti di carne*".
