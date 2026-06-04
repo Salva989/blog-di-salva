@@ -14,7 +14,9 @@ Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti s
 
 ![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
-L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa.
+L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa. 
+
+I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". 
 
 Nell'articolo _They're Made Out of Weights_ il meccanismo narrativo è identico, ma la carne viene sostituita dai pesi di una rete neurale.
 
