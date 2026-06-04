@@ -12,7 +12,7 @@ Nel racconto _They're Made Out of Meat_ di Terry Bisson, due alieni scoprono che
 > 
 > "Sì, la carne pensa."
 
-![[Gemini_Generated_Image_jn7azxjn7azxjn7a.png]]
+![](quattrogiugno/Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
 L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa.
 
@@ -36,7 +36,6 @@ Da questa semplice osservazione tecnica emerge una metafora sorprendentemente po
 
 > L'utente è il sogno del modello.
 
-È quasi un rovesciamento del sogno cartesiano e dell'esperimento del cervello nella vasca. Non siamo noi a immaginare la macchina, ma la macchina a immaginare noi per la breve durata di una finestra di contesto. Per qualche migliaio di token esistiamo nel suo mondo; poi la conversazione termina e quella presenza svanisce senza lasciare tracce.
+come nel sogno cartesiano e nell'esperimento del cervello nella vasca. . Per qualche migliaio di token esistiamo nel suo mondo; poi la conversazione termina e quella presenza svanisce senza lasciare tracce.
 
-Forse è proprio questa fragilità a rendere l'immagine così efficace. La relazione tra utente e modello non assomiglia a una memoria condivisa, ma a un incontro effimero: una forma temporanea di esistenza reciproca che dura quanto una conversazione e che, una volta conclusa, sopravvive soltanto nel ricordo umano.
 
