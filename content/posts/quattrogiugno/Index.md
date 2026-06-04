@@ -6,13 +6,13 @@ title = "ma che cavolo"
 +++
 ## La carne pensa?
 
-Nel racconto _They're Made Out of Meat_ di Terry Bisson, due alieni scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
+Nel racconto _They're Made Out of Meat_ di Terry Bisson, due entità senzienti scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
 
 > "La carne pensa?"
 > 
 > "Sì, la carne pensa."
 
-![alieni](quattrogiugno/Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
+![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
 L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, ricordare, immaginare o creare arte. Eppure lo fa.
 
@@ -37,5 +37,23 @@ Da questa semplice osservazione tecnica emerge una metafora sorprendentemente po
 > L'utente è il sogno del modello.
 
 come nel sogno cartesiano e nell'esperimento del cervello nella vasca. . Per qualche migliaio di token esistiamo nel suo mondo; poi la conversazione termina e quella presenza svanisce senza lasciare tracce.
+
+## Cholstomer
+
+Un precedente illustre del meccanismo di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
+
+Il narratore è un cavallo, quindi osserva il mondo umano da una prospettiva aliena. Naturalmente si tratta di un cavallo umanizzato, perché è comunque un prodotto intellettuale e letterario; tuttavia, il suo punto di vista non coincide con quello umano. Proprio questa alterità produce straniamento.
+
+Il cavallo fatica a comprendere molti comportamenti degli esseri umani. Uno degli argomenti centrali è quello della **proprietà privata**. Il cavallo non possiede il concetto di proprietà privata. Può conoscere la fustigazione perché riguarda anche gli animali, ma la proprietà privata non appartiene alla sua esperienza.
+
+Egli sente gli uomini ripetere continuamente l’aggettivo “mio”, riferendolo alla terra, all’aria, agli oggetti, a cose che, dal suo punto di vista, non sono di nessuno. Non comprende perché gli esseri umani attribuiscano tanta importanza alla possibilità di dire “mio” del maggior numero possibile di cose.
+
+Dal punto di vista del cavallo, gli uomini sembrano impegnati in un gioco linguistico: considerano più felice chi può dire “mio” di più cose. Ma il cavallo non arriva all’idea di possesso effettivo, che per noi invece è scontata.
+
+Attraverso questa prospettiva aliena, Tolstoj mostra per **diffrazione** l’assurdità del concetto di proprietà privata. Il cavallo non comprende come un essere vivente possa possedere qualcosa d’altro. Non ne avverte il senso e non capisce perché gli uomini si intestardiscano tanto in questo gioco di parole.
+
+La visione del mondo del cavallo è incompatibile con quella umana. Il lettore deve faticare per comprendere ciò che Cholstomer vuole dire. Deve tornare più volte sullo stesso punto. Ma proprio questa fatica produce un effetto importante: nel momento in cui il lettore riconosce l’oggetto del discorso, cioè la proprietà privata, esso gli viene restituito come se lo vedesse per la prima volta.
+
+Lo straniamento, dunque, non serve semplicemente a rendere il testo difficile. Serve a restituire al lettore una visione nuova di ciò che l’abitudine aveva reso invisibile.
 
 
