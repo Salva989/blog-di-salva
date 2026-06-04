@@ -21,7 +21,7 @@ L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli
 > (_They're Made Out of Meat_, Wikipedia)
 
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/7tScAyNaRdQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/7tScAyNaRdQ" frameborder="0" allow="fullscreen"></iframe>
 
 Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. Un grande modello di linguaggio non funziona attraverso regole grammaticali esplicite, dizionari nel senso tradizionale o singoli database interrogati ad ogni risposta ne tantomeno moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati( cioè altri numeri).
 
