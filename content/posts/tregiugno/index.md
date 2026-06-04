@@ -7,4 +7,4 @@ Una giornata fatta di movimento, studio e piccole incombenze domestiche. Tra una
 
 Il tutto con lo sguardo già rivolto all'estate, al mare e alle immersioni future, mentre sullo sfondo rimane la consapevolezza che ogni giornata ordinaria contiene pensieri capaci di aprire abissi molto più profondi di quelli dell'acqua.
 
-![[Pasted image 20260604082958.jpg]]
+![scoiattolo](Pasted%20image%20260604082958.jpg)
