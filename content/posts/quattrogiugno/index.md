@@ -2,61 +2,57 @@
 +++ 
 date = "2026-06-04T12:00:00+02:00" 
 draft = false 
-title = "ma che cavolo" 
+title = "meat thinks" 
 +++
-## La carne pensa?
+## Meat thinks?
 
-Nel racconto _They're Made Out of Meat_ di Terry Bisson, due esseri intelligenti scoprono che gli esseri umani sono fatti di carne e reagiscono con incredulità:
+In Terry Bisson’s short story _They’re Made Out of Meat_, two intelligent beings discover that human beings are made of meat and react with disbelief:
 
-> "La carne pensa?"
+> “Meat thinks?”
 > 
-> "Sì, la carne pensa."
+> “Yes, meat thinks.”
 
 ![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
 
-L'intero racconto ruota attorno all'assurdità apparente di questa idea. Per gli alieni, la carne è soltanto materia biologica: non può ragionare, eppure lo fa. 
+  
 
-> I due alieni sono esseri intelligenti capaci di viaggiare più velocemente della luce , in missione per "contattare, accogliere e registrare tutte le razze senzienti o multi-esseri in questo quadrante dell'Universo". Le indicazioni sceniche di Bisson li rappresentano come "due luci che si muovono come lucciole tra le stelle" su uno schermo di proiezione . Uno di loro racconta all'altro incredulo della recente scoperta di forme di vita a base di carbonio "composte interamente di carne". Dopo averne parlato brevemente, entrambi ritengono tali esseri e la comunicazione con essi troppo bizzarri e concordano di "cancellare i registri e dimenticare tutto", contrassegnando il Sistema Solare come "disabitato". 
+The entire story revolves around the apparent absurdity of this idea. For the aliens, meat is merely biological matter: it cannot reason, and yet it does.
+
+> The two aliens are intelligent beings capable of traveling faster than light, on a mission to “contact, welcome, and register every sentient race or multi-being in this quadrant of the Universe.” Bisson’s stage directions depict them as “two lights moving like fireflies among the stars” on a projection screen. One of them tells the other, who is incredulous, about the recent discovery of carbon-based life forms “made entirely out of meat.” After briefly discussing the matter, both of them consider these beings, and communication with them, far too bizarre, and agree to “erase the records and forget the whole thing,” marking the Solar System as “unoccupied.”
 > 
-> (_They're Made Out of Meat_, Wikipedia)
-
+> (_They’re Made Out of Meat_, Wikipedia)
 
 {{< youtube 7tScAyNaRdQ >}}
 
+In the article _They’re Made Out of Weights_ ([https://maxleiter.com/blog/weights](https://maxleiter.com/blog/weights)), meat is replaced by the weights of a neural network. A large language model does not function through explicit grammatical rules, dictionaries in the traditional sense, or individual databases queried at every response, nor through separate modules devoted to poetry, philosophy, and so on. Instead, we find enormous matrices of numbers that, through a long training phase, learn to produce increasingly sophisticated behaviors — that is, other numbers.
 
+So where does that strange sensation come from when we encounter a story such as _They’re Made Out of Meat_?
 
-Nell'articolo _They're Made Out of Weights_ (https://maxleiter.com/blog/weights) la carne viene sostituita dai pesi di una rete neurale. Un grande modello di linguaggio non funziona attraverso regole grammaticali esplicite, dizionari nel senso tradizionale o singoli database interrogati ad ogni risposta ne tantomeno moduli separati dedicati alla poesia, alla filosofia ecc... Troviamo invece enormi matrici di numeri che, attraverso una lunga fase di addestramento, imparano a produrre comportamenti sempre più sofisticati( cioè altri numeri).
-
-Dunque da dove deriva quella strana sensazione che percepiamo quando ci troviamo di fronte ad un racconto come "*Sono fatti di carne*".
-
-Siamo abituati ad associare il linguaggio, il ragionamento e la creatività a strutture simboliche facilmente riconoscibili e soprattutto umane. Anzi per noi il linguaggio è qualcosa di sacro: il verbo che diventa carne è per i cristiani la definizione letterale di Gesù Cristo. Scoprire che tutto questo emerge da una massa di parametri numerici provoca lo stesso stupore degli alieni di Bisson davanti alla carne pensante. 
-
+We are used to associating language, reasoning, and creativity with symbolic structures that are easily recognizable and, above all, human. Indeed, for us, language is something sacred: the Word becoming flesh is, for Christians, the literal definition of Jesus Christ. Discovering that all of this emerges from a mass of numerical parameters produces the same astonishment felt by Bisson’s aliens when faced with thinking meat.
 
 ## When the Music's Over
 
-Che cosa accade quando interrompiamo una conversazione con un grande modello di linguaggio?
+What happens when we interrupt a conversation with a large language model?
 
-> "Il contesto semplicemente si interrompe e per loro noi siamo solo un sogno."
+> “The context simply breaks off, and to them we are only a dream.”
 
-Una conversazione esiste soltanto finché esiste il contesto che la sostiene. Quando quel contesto scompare, non rimane alcuna continuità dell'esperienza.
+A conversation exists only as long as the context that sustains it exists. When that context disappears, no continuity of experience remains.
 
-> L'utente è il sogno del modello.
-
-come nel sogno cartesiano e nell'esperimento del cervello nella vasca.
+> The user is the model’s dream.
 ## Cholstomer
 
-Un precedente illustre del meccanismo letterario di straniamento è il racconto di Tolstoj **Cholstomer**, narrato in gran parte dal punto di vista di un cavallo.
+An illustrious precedent for the literary mechanism of defamiliarization is Tolstoy’s story **Cholstomer**, narrated largely from the point of view of a horse.
 
-Il narratore è un cavallo, quindi osserva il mondo umano da una prospettiva aliena. Naturalmente si tratta di un cavallo umanizzato, perché è comunque un prodotto intellettuale e letterario; tuttavia, il suo punto di vista non coincide con quello umano. Proprio questa alterità produce straniamento.
+The narrator is a horse, and therefore observes the human world from an alien perspective. Naturally, it is a humanized horse, because it is still an intellectual and literary creation; nevertheless, its point of view does not coincide with the human one. It is precisely this otherness that produces defamiliarization.
 
-Il cavallo fatica a comprendere molti comportamenti degli esseri umani. Uno degli argomenti centrali è quello della **proprietà privata**. Il cavallo non possiede il concetto di proprietà privata. Può conoscere la fustigazione perché riguarda anche gli animali, ma la proprietà privata non appartiene alla sua esperienza.
+The horse struggles to understand many forms of human behavior. One of the central themes is **private property**. The horse does not possess the concept of private property. It can understand whipping, because that also concerns animals, but private property does not belong to its experience.
 
-Egli sente gli uomini ripetere continuamente l’aggettivo “mio”, riferendolo alla terra, all’aria, agli oggetti, a cose che, dal suo punto di vista, non sono di nessuno. Non comprende perché gli esseri umani attribuiscano tanta importanza alla possibilità di dire “mio” del maggior numero possibile di cose.
+He hears humans constantly repeating the adjective “mine,” applying it to land, air, objects, and things that, from his point of view, belong to no one. He does not understand why human beings attach so much importance to the possibility of saying “mine” about as many things as possible.
 
-Dal punto di vista del cavallo, gli uomini sembrano impegnati in un gioco linguistico: considerano più felice chi può dire “mio” di più cose. Ma il cavallo non arriva all’idea di possesso effettivo, che per noi invece è scontata.
+From the horse’s point of view, humans seem to be engaged in a linguistic game: they consider the happiest person to be the one who can say “mine” about the greatest number of things. But the horse never arrives at the idea of actual possession, which for us is taken for granted.
 
-Attraverso questa prospettiva aliena, Tolstoj mostra per **diffrazione** l’assurdità del concetto di proprietà privata. Il cavallo non comprende come un essere vivente possa possedere qualcosa d’altro. Non ne avverte il senso e non capisce perché gli uomini si intestardiscano tanto in questo gioco di parole.
+Through this alien perspective, Tolstoy reveals, by diffraction, the absurdity of the concept of private property. The horse cannot understand how one living being can possess something else. He does not perceive its meaning and does not understand why humans are so obstinate in this game of words.
 
-La visione del mondo del cavallo è incompatibile con quella umana. Il lettore deve faticare per comprendere ciò che Cholstomer vuole dire. Deve tornare più volte sullo stesso punto. Ma proprio questa fatica produce un effetto importante: nel momento in cui il lettore riconosce l’oggetto del discorso, cioè la proprietà privata, esso gli viene restituito come se lo vedesse per la prima volta.
+The horse’s worldview is incompatible with the human one. The reader must struggle to understand what Cholstomer is trying to say. They must return to the same point several times. But precisely this effort produces an important effect: at the moment when the reader recognizes the object of the discourse — that is, private property — it is returned to them as if they were seeing it for the first time.
 
 
