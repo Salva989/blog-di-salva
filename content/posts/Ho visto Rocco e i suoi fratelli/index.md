@@ -4,15 +4,21 @@ draft = false
 title = "La palestra Visconti" 
 +++
 
-Non avevamo mai visto "Rocco e i suoi fratelli" ho dovuto spezzarlo in tre parti per vederlo durante la settimana. Ovviamente appena finito ho iniziato la mia solita immersione sul web per capire che cosa era successo e per cercare di mettere ordine e di elaborare la mia esperienza emotiva con il film. Ho scoperto che la palestra Visconti è a due passi da dove abito io. Mi sono emozionato volevo correre per andare a vederla. 
+I had never watched _Rocco and His Brothers_. I had to split it into three parts to get through it during the week. Of course, as soon as I finished it, I began my usual deep dive on the web, trying to understand what had happened and to put my emotional experience of the film in order.
+
+I discovered that the Visconti gym is just a stone’s throw from where I live. I got emotional. I wanted to run there immediately to see it. 
 
 ![Set di Rocco e i suoi fratelli](./Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg)
 
-Simone è spazzatura, Ciro un egoista. La madre origine di ogni male. Rocco doveva perdere la facoltà di parola dopo l'incontro al bar con la Nadia, come è successo a Zaccaria. In quel caso avrei dato 10 film.
+Simone is trash, Ciro is selfish. The mother is the source of all evil. Rocco should have lost the ability to speak after the encounter with Nadia at the bar, just like Zaccaria did. In that case, I would have given the film a 10.
 
-Però che leggerezza che eleganza, bastano pochi secondi di pellicola per farci fluttuare con l'ingenuità spontanea di un po' tutti i personaggi, vedere negli occhi di Nadia nascere la speranza e poi quella lacrimuccia valeva tutto il film. Se quel maledetto Rocco avesse avuto il coraggio di affrontare prima il fratello prima di essere scoperto nel bosco magari si risparmiavano le coltellate e non si sarebbero rubati il destino a vicenda. Se solo Simone avesse ricordato le cose che diceva a Ciro prima di diventare un ubriacone fosse non sarebbe diventato un mostro ma sarebbe rimasto solamente un vigliacco.
+And yet, what lightness, what elegance. A few seconds of film are enough to make us float along with the spontaneous innocence of almost all the characters. Seeing hope being born in Nadia’s eyes, and then that tiny tear, was worth the whole film.
+
+If that cursed Rocco had had the courage to confront his brother earlier, before being discovered in the woods, maybe the stabbing could have been avoided, and they would not have stolen each other’s destiny.
+
+If only Simone had remembered the things he said to Ciro before becoming a drunkard, maybe he would not have become a monster, but would have remained only a coward.
 
 ![Schermata del film](./17709_hd.jpg)
-E che dire di Vincenzo, niente, personaggio abbastanza inutile.
+And what can be said about Vincenzo? Nothing, really. A fairly useless character.
 
-voto : 9,5
+rating : 9,5/10
