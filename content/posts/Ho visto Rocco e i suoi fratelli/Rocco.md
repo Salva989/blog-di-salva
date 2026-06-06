@@ -10,7 +10,7 @@ Non avevamo mai visto "Rocco e i suoi fratelli" ho dovuto spezzarlo in tre parti
 
 Simone è spazzatura, Ciro un egoista. La madre origine di ogni male. Rocco doveva perdere la facoltà di parola dopo l'incontro al bar con la Nadia, come è successo a Zaccaria. in quel caso avrei dato 10 film.
 
-Però che leggerezza che eleganza, bastano pochi secondi di pellicola per farci fluttuare con l'ingenuità spontanea di un po' tutti i personaggi, vedere negli occhi di Nadia la speranza. Ma poi alla fine non glielo poteva dire a Simone prima di uscire, bastavano cinque minuti e si risparmiavano le coltellate.
+Però che leggerezza che eleganza, bastano pochi secondi di pellicola per farci fluttuare con l'ingenuità spontanea di un po' tutti i personaggi, vedere negli occhi di Nadia la speranza e quella lacrimuccia. Se Rocco avesse avuto il coraggio di affrontare prima il fratello magari si risparmiavano le coltellate.
 
 ![[17709_hd.jpg]]
 E che dire di Vincenzo, niente, personaggio abbastanza inutile.
