@@ -4,3 +4,4 @@ La vera realizzazione si compie quando il monaco **ritorna nel mondo caotico del
 
 - **L'immagine**: Tradizionalmente, la decima tavola mostra un monaco dai modi semplici, con i piedi scalzi e il petto scoperto, che cammina tra la folla della città portando un sacco.
 - **La descrizione classica**: _"Le porte della mia capanna sono chiuse e i saggi non mi conoscono. Non guardo dentro i miei segreti. Vado al mercato con la mia bottiglia e ritorno a casa con il mio bastone. Frequento i bottegai e i venditori di pesce, e li aiuto a risvegliarsi."_
+
