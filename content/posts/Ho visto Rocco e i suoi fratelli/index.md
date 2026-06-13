@@ -10,7 +10,7 @@ I discovered that the Visconti gym is just a stone’s throw from where I live. 
 
 ![Set di Rocco e i suoi fratelli](./Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg)
 
-Simone is trash, Ciro is selfish. The mother is the source of all evil. Rocco should have lost the ability to speak after the encounter with Nadia at the bar, just like Zaccaria did. In that case, I would have given the film a 10.
+Who could ever simpatize with Simone or even Ciro. Rocco should have lost the ability to speak after the encounter with Nadia at the bar, just like Zaccaria did. In that case, I would have given the film a 10.
 
 And yet, what lightness, what elegance. A few seconds of film are enough to make us float along with the spontaneous innocence of almost all the characters. Seeing hope being born in Nadia’s eyes, and then that tiny tear, was worth the whole film.
 
