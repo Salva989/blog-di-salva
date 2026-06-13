@@ -1,0 +1,5 @@
+Le gastronomie e i laboratori artigianali di qualità si differenziano per un approccio più etico e salutare rispetto alla produzione industriale. L'attenzione si sposta sulle **cotture dolci** (al vapore o a bassa temperatura) per preservare i nutrienti, sull'uso rigoroso di **ingredienti di stagione** e sul controllo del **punto di cottura** per mantenere le proprietà organolettiche.
+
+perchè le verdure sono croccante : le lunghe cotture distruggono le propietà-
+
+Pietro va da peppe si è fatto chaitto e viee in salumeria per fare la dieta cede alla gola in altre parti con prodotti fritti , pesce fa tutte le cose fritte aldilà della strada e nei peridoi che vanno ala mare o dal medico si fanno el analisi colesterolo e vanno in slaumeria. prodotti salutari cihe non fann male e li pososno aiutare se hanno rpoblemi vogliono che se lo vanno a vedere il sito
