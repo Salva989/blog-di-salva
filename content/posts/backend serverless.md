@@ -123,3 +123,52 @@ Si usa una **Coda di Messaggi** (come _Google Cloud Pub/Sub_):
 - Se vede che nella coda si accumulano 10.000 file, il sistema di Autoscaling dice: _"C'è un'emergenza nella coda! Accendi subito altre 5 VM per smaltire il lavoro!"_.
 
 Se vuoi provare a configurarlo, preferisci iniziare con la strada delle **VM tradizionali (Opzione 1)** che è più veloce da capire, o vuoi fare il salto direttamente nel mondo di **Kubernetes e dei container (Opzione 2)**? [[1](https://learn.microsoft.com/it-it/azure/stream-analytics/cluster-overview)]
+
+
+Cosa ti serve (Requisiti)
+
+- **Un PC "Server":** Anche un vecchio computer con processore Intel o AMD (almeno 4 core e 8GB di RAM consigliati).
+- **Una chiavetta USB:** Almeno da 4GB o superiore (verrà formattata).
+- **Un cavo di rete Ethernet:** Il server di casa deve essere collegato al modem via cavo, non via Wi-Fi, per garantire stabilità.
+- **Un secondo PC:** Ti servirà solo per completare la configurazione tramite browser web.
+
+---
+
+🚀 Guida in 4 Passi
+
+1. Prepara la chiavetta USB di installazione
+
+2. Scarica gratuitamente l'immagine ISO dal sito ufficiale di [Proxmox VE Downloads](https://www.proxmox.com/en/downloads).
+3. Scarica un programma gratuito per scrivere la ISO sulla chiavetta, come [Rufus](https://rufus.ie/).
+4. Inserisci la chiavetta nel tuo PC principale, apri Rufus, seleziona il file ISO di Proxmox e clicca su **Avvia** per masterizzarlo. [[1](https://it.easeus.com/system-to-go/come-creare-chiavetta-usb-avviabili-tramite-rufus.html), [2](https://it.easeus.com/system-to-go/come-creare-chiavetta-usb-avviabili-tramite-rufus.html)]
+
+5. Installa Proxmox sul PC Server
+
+6. Inserisci la chiavetta USB nel PC che diventerà il tuo server e accendilo.
+7. Entra nel BIOS (premendo ripetutamente `F2`, `F12` o `DEL` all'avvio) e **attiva la Virtualizzazione Hardware** (si chiama _Intel VT-x_ o _AMD-V_).
+8. Imposta il boot dalla chiavetta USB e avvia l'installer di Proxmox.
+9. Segui le istruzioni a schermo: seleziona il disco fisso, imposta una password sicura per l'utente `root` e inserisci la tua email.
+10. **Configurazione di rete:** L'installer ti mostrerà un indirizzo IP (ad esempio `https://192.168.1.100:8006`). Scrivilo su un foglio.
+11. Clicca su installa. Al termine, il PC si riavvierà e ti mostrerà una schermata nera di terminale. **Lascialo acceso.** Da questo momento non ti serviranno più monitor, tastiera o mouse collegati a quel PC.
+
+12. Accedi al pannello di controllo web
+
+13. Spostati sul tuo PC principale (che deve essere collegato alla stessa rete di casa).
+14. Apri il browser (Chrome, Edge o Firefox) e digita nella barra degli indirizzi l'IP che hai segnato prima (es. `https://192.168.1.100:8006`).
+15. Il browser dirà "La connessione non è privata" (è normale perché usa un certificato locale). Clicca su **Avanzate** e poi su **Procedi**.
+16. Inserisci come nome utente `root` e la password che hai scelto durante l'installazione. [[1](https://www.geekom.it/mini-pc-come-nas/)]
+
+17. Crea la tua prima VPS
+
+Nel pannello di Proxmox vedrai tutto l'hardware del tuo PC (la CPU, la RAM e il disco) pronto per essere "tagliato" a fette.
+
+1. Vai nella sezione di archiviazione (`local`), seleziona **ISO Images** e carica il file ISO del sistema operativo che vuoi dare alla tua VPS (ad esempio Ubuntu Server o Windows).
+2. In alto a destra, clicca sul pulsante azzurro **Create VM** (Crea Macchina Virtuale).
+3. Segui l'assistente guidato:
+    - **OS:** Seleziona l'immagine ISO che hai appena caricato.
+    - **CPU:** Scegli quanti core dedicare a questa specifica VPS.
+    - **Memory:** Scegli quanta RAM assegnarle (es. 2048 MB per 2GB).
+    - **Network:** Lascia le impostazioni predefinite in modalità _Bridge_ (così la VPS prenderà un IP direttamente dal tuo modem di casa, come se fosse un computer fisico indipendente).
+4. Clicca su **Finish**. Seleziona la nuova macchina virtuale dall'elenco a sinistra e clicca su **Start**. Cliccando sulla scheda **Console** vedrai lo schermo della tua VPS e potrai installare il sistema operativo.
+
+---
