@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ambiti.md",
+                "file": "backend serverless.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ambiti"
+              "title": "backend serverless"
             }
           }
         ],
@@ -279,11 +279,11 @@
   },
   "active": "72f9f41cc834ef20",
   "lastOpenFiles": [
-    "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg",
+    "Il monaco di tutte le storie.md",
     "ambiti.md",
+    "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg",
     "backend serverless.md",
     "appunti di gastronomie.md",
-    "Il monaco di tutte le storie.md",
     "Ho visto Rocco e i suoi fratelli/index.md",
     "Ho visto Rocco e i suoi fratelli/Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg",
     "quattrogiugno/index.md",
