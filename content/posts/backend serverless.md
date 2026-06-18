@@ -71,3 +71,22 @@ Usa il codice con cautela.
 In questo modo, se il gruppo scala a 5 istanze, avrai 5 worker identici che lavorano in parallelo, ognuno con il suo `tmux` attivo. Tu potrai collegarti a qualsiasi VM in SSH e digitare `tmux a` per vedere l'elaborazione in tempo reale.
 
 ---
+
+Opzione 1: Il modo più semplice (Container-Optimized OS)
+
+Google Cloud ti permette di creare un gruppo di VM che non hanno nemmeno bisogno di `tmux` o di un sistema operativo tradizionale. Usano un sistema operativo leggerissimo di Google fatto _solo_ per Docker.
+
+- Nel tuo **Instance Template**, invece di inserire un'immagine del disco, metti direttamente il nome della tua immagine Docker (es. scaricata da _Docker Hub_ o _Google Artifact Registry_).
+- All'avvio, la VM scarica Docker e fa partire il container in automatico. [[1](https://toshelp.terra-master.com/it/docs/TOS7/application/docker-manager)]
+
+_Nota: Se hai **più immagini Docker diverse** da far girare insieme sulla stessa VM (es. un container per scaricare i file e uno per convertirli), puoi usare uno **Startup Script** che lancia i classici comandi `docker run -d ...` per ogni immagine, oppure usare **Docker Compose**._
+
+Opzione 2: Il modo classico (VM con Docker + `tmux`)
+
+Puoi fare come abbiamo detto prima:
+
+1. Prendi la tua VM attuale.
+2. Installi Docker e ci carichi dentro le tue immagini.
+3. Nello **Startup Script** scrivi i comandi per avviare i container dentro `tmux` (anche se con Docker il `tmux` spesso non serve più, perché Docker può già girare da solo in background con il comando `-d`). [[1](https://www.reddit.com/r/Proxmox/comments/15ni84i/when_do_you_use_docker_vs_lxc_vs_a_vm/?tl=it)]
+
+---
