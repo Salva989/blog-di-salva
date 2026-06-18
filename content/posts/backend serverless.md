@@ -172,3 +172,85 @@ Nel pannello di Proxmox vedrai tutto l'hardware del tuo PC (la CPU, la RAM e il 
 4. Clicca su **Finish**. Seleziona la nuova macchina virtuale dall'elenco a sinistra e clicca su **Start**. Cliccando sulla scheda **Console** vedrai lo schermo della tua VPS e potrai installare il sistema operativo.
 
 ---
+
+Con **GKE Autopilot** non puoi creare una macchina virtuale (VM) tradizionale, perché questo servizio è progettato per gestire esclusivamente **container**.
+
+Se il tuo obiettivo è far girare un'applicazione su Google Cloud senza dover configurare o gestire l'hardware e i nodi (proprio come fa Autopilot), hai due opzioni ufficiali a seconda di cosa vuoi lanciare.
+
+---
+
+Opzione 1: Usare Cloud Run (Il modo più semplice per un singolo container)
+
+Se vuoi semplicemente far girare il tuo applicativo (es. un sito web, un'API) senza configurare una VM, **Cloud Run** è la scelta migliore e più immediata di Google Cloud. Paghi al millisecondo solo quando il codice è in esecuzione.
+
+1. Accedi alla console di Google Cloud e cerca **Cloud Run**.
+2. Clicca su **Crea servizio**.
+3. Inserisci l'URL dell'immagine del tuo container (puoi caricarla su Artifact Registry).
+4. Nella sezione **Configurazione del contenitore**, imposta esattamente le risorse che desideri (es. `1 vCPU` e `2 GB di RAM`).
+5. Clicca su **Crea**. Google assegnerà un URL pubblico al tuo container in pochi secondi.
+
+---
+
+Opzione 2: Usare GKE Autopilot (Per architetture complesse a container)
+
+Se vuoi usare proprio GKE Autopilot, devi comunicare a Google cosa far girare tramite un piccolo file di testo (chiamato manifesto YAML). Non crei una VM, ma crei un **Pod** (che contiene il tuo container).
+
+1. Crea il cluster Autopilot [[1](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview?hl=it)]
+
+Puoi crearlo dalla grafica di Google Cloud (cercando **Kubernetes Engine** -> **Crea** -> seleziona **Autopilot**) oppure tramite terminale con un solo comando: [[1](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview?hl=it)]
+
+bash
+
+```
+gcloud container clusters create-auto mio-cluster --region europe-west1
+```
+
+Usa il codice con cautela.
+
+2. Definisci le risorse nel file YAML
+
+Per dire ad Autopilot quanta CPU e RAM assegnare al tuo container, si crea un file chiamato `mio-container.yaml` scritto così:
+
+yaml
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: la-mia-applicazione
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: server-web
+        image: nginx:latest # L'immagine del tuo container
+        resources:
+          requests:
+            memory: "2Gi"   # Richiede esattamente 2GB di RAM
+            cpu: "1"        # Richiede esattamente 1 vCPU
+```
+
+Usa il codice con cautela.
+
+3. Invia il comando a GKE
+
+Tramite la riga di comando (configurata con `kubectl`), applichi il file:
+
+bash
+
+```
+kubectl apply -f mio-container.yaml
+```
+
+Usa il codice con cautela.
+
+In quel momento, GKE Autopilot leggerà le tue richieste (`1 vCPU` e `2Gi` RAM), troverà istantaneamente lo spazio nei suoi server invisibili e farà partire la tua applicazione.
+
+---
