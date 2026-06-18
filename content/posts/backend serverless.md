@@ -38,3 +38,36 @@ Proprio come hai nascosto la chiave di OpenRouter, puoi usare il serverless per 
 - **Notifiche**: Ricevere un avviso sul tuo telefono (tramite app come Slack o WhatsApp) ogni volta che un utente compie un'azione importante sul tuo sito GitHub Pages.
 
 ---
+
+
+Come funziona il flusso corretto
+
+1. **Prepara l'ambiente:** Crea un'immagine del disco della tua VM attuale (con `tmux`, Python, o i software di conversione già installati).
+2. **Crea un Instance Template:** Crea un modello inserendo l'immagine appena fatta e inserendo lo **Startup Script** (script di avvio) nelle opzioni dei metadati.
+3. **Crea il Managed Instance Group (MIG):** Collega il gruppo al modello. Ogni volta che il gruppo crea una VM, questa eseguirà lo script da sola all'avvio.
+
+---
+
+Esempio di Startup Script per il tuo Worker
+
+Ecco un esempio di script di avvio che crea una sessione `tmux` in background (chiamata `worker_session`) e avvia il tuo script di conversione:
+
+bash
+
+```
+#!/bin/bash
+# Questo script viene eseguito automaticamente come ROOT all'avvio della VM
+
+# 1. (Opzionale) Ti sposti nella cartella del progetto
+cd /home/tuo_utente/app-conversione
+
+# 2. Avvia una sessione tmux "detached" (in background) che esegue il worker
+# Sostituisci "python3 main.py" con il comando che usi per convertire i file
+sudo -u tuo_utente tmux new-session -d -s worker_session 'python3 main.py'
+```
+
+Usa il codice con cautela.
+
+In questo modo, se il gruppo scala a 5 istanze, avrai 5 worker identici che lavorano in parallelo, ognuno con il suo `tmux` attivo. Tu potrai collegarti a qualsiasi VM in SSH e digitare `tmux a` per vedere l'elaborazione in tempo reale.
+
+---
