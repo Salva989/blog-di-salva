@@ -90,3 +90,36 @@ Puoi fare come abbiamo detto prima:
 3. Nello **Startup Script** scrivi i comandi per avviare i container dentro `tmux` (anche se con Docker il `tmux` spesso non serve più, perché Docker può già girare da solo in background con il comando `-d`). [[1](https://www.reddit.com/r/Proxmox/comments/15ni84i/when_do_you_use_docker_vs_lxc_vs_a_vm/?tl=it)]
 
 ---
+
+Opzione 1: Con i Gruppi di Istanze (MIG) – Il modo più semplice per le tue VM
+
+Visto che all'inizio parlavi di una VM tradizionale, puoi impostare l'autoscaling direttamente sul tuo **Managed Instance Group (MIG)**.
+
+Funziona così:
+
+1. **Scegli la "regola" (la metrica):** Dici a Google Cloud cosa deve controllare. La scelta più comune è l'**uso della CPU**. Ad esempio: _"Se la CPU media delle mie VM supera il 70%, significa che c'è troppo lavoro"_.
+2. **Imposti i limiti:** Decidi il numero minimo e massimo di macchine (es. _"Minimo 1 VM quando non c'è lavoro, massimo 10 VM se arrivano troppi file"_).
+3. **Google fa il resto:** Se arrivano migliaia di file di testo e la tua unica VM va al 100% di sforzo, Google Cloud legge la regola e accende la seconda VM, poi la terza, e così via, fino a quando la CPU non torna sotto il 70%.
+
+---
+
+Opzione 2: Con Kubernetes (GKE) – Il modo professionale per i Container
+
+Se decidi di usare molti container Docker, lo standard mondiale è usare **Kubernetes** (su Google Cloud il servizio si chiama _GKE - Google Kubernetes Engine_). È un sistema nato appositamente per questo e scala in due modi contemporaneamente:
+
+1. **Horizontal Pod Autoscaler (HPA):** Se arrivano tante richieste, Kubernetes crea prima **nuovi container** (chiamati Pod) dentro le macchine che hai già.
+2. **Cluster Autoscaler:** Se i container diventano così tanti che non entrano più fisicamente nelle macchine attuali, Kubernetes chiede a Google Cloud: _"Ehi, mi servono altre stanze! Accendi una nuova VM da aggiungere al cluster"_.
+
+---
+
+Come fa il sistema a sapere che ci sono nuove richieste? (Molto Importante)
+
+Per far funzionare l'autoscaling con i tuoi worker di testo, non puoi semplicemente inviare i file direttamente a una VM, perché se quella VM si spegne o è troppo piena, il file va perso.
+
+Si usa una **Coda di Messaggi** (come _Google Cloud Pub/Sub_):
+
+- Quando hai dei file da convertire, li "butti" tutti dentro questa coda virtuale.
+- Il tuo cluster di VM controlla la coda. Se ci sono 5 file, lavora una sola VM.
+- Se vede che nella coda si accumulano 10.000 file, il sistema di Autoscaling dice: _"C'è un'emergenza nella coda! Accendi subito altre 5 VM per smaltire il lavoro!"_.
+
+Se vuoi provare a configurarlo, preferisci iniziare con la strada delle **VM tradizionali (Opzione 1)** che è più veloce da capire, o vuoi fare il salto direttamente nel mondo di **Kubernetes e dei container (Opzione 2)**? [[1](https://learn.microsoft.com/it-it/azure/stream-analytics/cluster-overview)]
