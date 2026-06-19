@@ -93,14 +93,12 @@
             "id": "72f9f41cc834ef20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "backend serverless.md",
-                "mode": "source",
-                "source": false
+                "file": "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg"
               },
-              "icon": "lucide-file",
-              "title": "backend serverless"
+              "icon": "lucide-image",
+              "title": "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.)"
             }
           }
         ],
@@ -279,10 +277,10 @@
   },
   "active": "72f9f41cc834ef20",
   "lastOpenFiles": [
+    "backend serverless.md",
     "Il monaco di tutte le storie.md",
     "ambiti.md",
     "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg",
-    "backend serverless.md",
     "appunti di gastronomie.md",
     "Ho visto Rocco e i suoi fratelli/index.md",
     "Ho visto Rocco e i suoi fratelli/Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg",
