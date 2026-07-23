@@ -123,12 +123,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Senza nome.md",
+                "file": "Grand theft auto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Senza nome"
+              "title": "Grand theft auto"
             }
           }
         ],
@@ -308,7 +308,7 @@
   "active": "657faf8e267e676c",
   "lastOpenFiles": [
     "Ho visto Rocco e i suoi fratelli/index.md",
-    "Senza nome.md",
+    "Grand theft auto.md",
     "backend serverless.md",
     "dove conservare token autenticazione app web.md",
     "appunti di gastronomie.md",
