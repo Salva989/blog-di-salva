@@ -1,24 +1,35 @@
-+++ 
-date = "2026-06-06T12:00:00+02:00" 
-draft = false 
-title = "La palestra Visconti" 
++++
+title = "La palestra di Visconti"
+date = "2026-06-06T12:00:00+02:00"
+lastmod = "2026-08-10T18:00:00+02:00"
+draft = false
+description = "Watching Rocco and His Brothers, discovering one of its locations nearby, and trying to make peace with Rocco's choices."
+tags = ["Luchino Visconti", "Rocco e i suoi fratelli", "cinema italiano"]
+categories = ["Cinema"]
+images = ["Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg"]
+
+[cover]
+image = "Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg"
+alt = "Annie Girardot and Alain Delon on the Milan Cathedral set of Rocco and His Brothers"
+caption = "On the set of Rocco and His Brothers."
 +++
 
-I had never watched _Rocco and His Brothers_. I had to split it into three parts to get through it during the week. Of course, as soon as I finished it, I began my usual deep dive on the web, trying to understand what had happened and to put my emotional experience of the film in order.
+I had never watched _Rocco and His Brothers_. I had to divide it into three evenings, but as soon as it ended I began my usual search through locations, reviews and fragments of its history. I needed to understand what had happened and put the emotional experience of the film in order.
 
-I discovered that the Visconti gym is just a stone’s throw from where I live. I got emotional. I wanted to run there immediately to see it. 
+Then I discovered that one of Visconti's gyms is only a short walk from where I live. The film suddenly stopped belonging only to the screen. Part of its Milan was still outside my door, and I wanted to run there immediately.
 
-![Set di Rocco e i suoi fratelli](./Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg)
+![Annie Girardot and Alain Delon during filming at Milan Cathedral](Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg "On the set of Rocco and His Brothers")
 
-Who could ever simpatize with Simone or even Ciro. Rocco should have lost the ability to speak after the encounter with Nadia at the bar, just like Zaccaria did. In that case, I would have given the film a 10.
+## The impossible brothers
 
-And yet, what lightness, what elegance. A few seconds of film are enough to make us float along with the spontaneous innocence of almost all the characters. Seeing hope being born in Nadia’s eyes, and then that tiny tear, was worth the whole film.
+It is difficult to sympathize with Simone, but Rocco tests my patience even more. After meeting Nadia at the bar, he seems determined to confuse goodness with surrender. His refusal to confront his brother does not prevent violence; it gives violence more time to grow.
 
-If that cursed Rocco had had the courage to confront his brother earlier, before being discovered in the woods, maybe the stabbing could have been avoided, and they would not have stolen each other’s destiny.
+And yet the film moves with astonishing lightness and elegance. A few seconds are enough to make us float with the innocence of its characters. Hope appearing in Nadia's eyes, followed by that tiny tear, is worth the whole film.
 
-If only Simone had remembered the things he said to Ciro before becoming a drunkard, maybe he would not have become a monster, but would have remained only a coward.
+If Rocco had challenged Simone earlier, before the encounter in the woods, perhaps the final catastrophe could have been avoided. If Simone had remembered what he once said to Ciro, perhaps he would have remained a coward without becoming a monster. Visconti makes every possibility feel close enough to touch, then closes it.
 
-![Schermata del film](./17709_hd.jpg)
-And what can be said about Vincenzo? Nothing, really. A fairly useless character.
+![Nadia and Rocco facing each other in a scene from the film](17709_hd.jpg "Nadia and Rocco")
 
-rating : 9,5/10
+Vincenzo, meanwhile, almost disappears beside the others. Perhaps that is his function: he is the brother who manages to leave the tragedy, and therefore the one the film has least to say about.
+
+**Rating: 9.5/10.**

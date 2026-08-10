@@ -1,58 +1,49 @@
-
-+++ 
-date = "2026-06-04T12:00:00+02:00" 
-draft = false 
-title = "meat thinks" 
 +++
-## Meat thinks?
+title = "Meat Thinks"
+date = "2026-06-04T12:00:00+02:00"
+lastmod = "2026-08-10T18:00:00+02:00"
+draft = false
+description = "From Terry Bisson's thinking meat to neural-network weights and Tolstoy's horse: three exercises in seeing the familiar as strange."
+tags = ["Terry Bisson", "intelligenza artificiale", "Tolstoy", "defamiliarization"]
+categories = ["Cultura"]
+images = ["Gemini_Generated_Image_jn7azxjn7azxjn7a.png"]
 
-In Terry Bisson’s short story _They’re Made Out of Meat_, two intelligent beings discover that human beings are made of meat and react with disbelief:
+[cover]
+image = "Gemini_Generated_Image_jn7azxjn7azxjn7a.png"
+alt = "Pixel-art aliens examining a human being"
+caption = "Thinking meat, seen from the outside."
++++
 
-> “Meat thinks?”
-> 
-> “Yes, meat thinks.”
+In Terry Bisson's short story _They're Made Out of Meat_, two intelligent beings discover that humans are entirely biological and react with disbelief:
 
-![](Gemini_Generated_Image_jn7azxjn7azxjn7a.png)
+> "Meat thinks?"
+>
+> "Yes, meat thinks."
 
-  
+![Two pixel-art aliens examining a human being](Gemini_Generated_Image_jn7azxjn7azxjn7a.png "Thinking meat")
 
-The entire story revolves around the apparent absurdity of this idea. For the aliens, meat is merely biological matter: it cannot reason, and yet it does.
-
-> The two aliens are intelligent beings capable of traveling faster than light, on a mission to “contact, welcome, and register every sentient race or multi-being in this quadrant of the Universe.” Bisson’s stage directions depict them as “two lights moving like fireflies among the stars” on a projection screen. One of them tells the other, who is incredulous, about the recent discovery of carbon-based life forms “made entirely out of meat.” After briefly discussing the matter, both of them consider these beings, and communication with them, far too bizarre, and agree to “erase the records and forget the whole thing,” marking the Solar System as “unoccupied.”
-> 
-> (_They’re Made Out of Meat_, Wikipedia)
+The joke lasts only a few pages, but it changes the angle from which we see ourselves. To the aliens, meat is merely matter. It should not speak, build machines or wonder about the universe. Faced with a contradiction they cannot absorb, they decide that contact is not worth the trouble.
 
 {{< youtube 7tScAyNaRdQ >}}
 
-In the article _They’re Made Out of Weights_ ([https://maxleiter.com/blog/weights](https://maxleiter.com/blog/weights)), meat is replaced by the weights of a neural network. A large language model does not function through explicit grammatical rules, dictionaries in the traditional sense, or individual databases queried at every response, nor through separate modules devoted to poetry, philosophy, and so on. Instead, we find enormous matrices of numbers that, through a long training phase, learn to produce increasingly sophisticated behaviors — that is, other numbers.
+## Made out of weights
 
-So where does that strange sensation come from when we encounter a story such as _They’re Made Out of Meat_?
+Max Leiter's essay [_They're Made Out of Weights_](https://maxleiter.com/blog/weights) replaces Bisson's meat with the parameters of a neural network. A language model is not assembled from a separate grammar book, poetry module and encyclopedia. Training shapes enormous arrays of numbers until the system can produce behavior that looks structured, informed and sometimes creative.
 
-We are used to associating language, reasoning, and creativity with symbolic structures that are easily recognizable and, above all, human. Indeed, for us, language is something sacred: the Word becoming flesh is, for Christians, the literal definition of Jesus Christ. Discovering that all of this emerges from a mass of numerical parameters produces the same astonishment felt by Bisson’s aliens when faced with thinking meat.
+The comparison creates the same productive discomfort. We associate language and thought with recognizable symbols and, above all, with human experience. Finding language in numerical weights can feel as absurd as finding it in biological tissue.
 
-## When the Music's Over
+This does not prove that models and people think in the same way. It reveals something more modest and perhaps more interesting: our intuition about which materials are allowed to produce intelligence is unreliable.
 
-What happens when we interrupt a conversation with a large language model?
+## When the context ends
 
-> “The context simply breaks off, and to them we are only a dream.”
+What happens when a conversation with a language model is interrupted? The context stops. Any apparent continuity depended on the information still available in that exchange.
 
-A conversation exists only as long as the context that sustains it exists. When that context disappears, no continuity of experience remains.
+> The user is the model's dream.
 
-> The user is the model’s dream.
-## Cholstomer
+The sentence is a metaphor, not a technical description, but it captures the strange asymmetry of the encounter. For the user, the conversation becomes a memory. For the model, there is no private thread continuing after the context disappears.
 
-An illustrious precedent for the literary mechanism of defamiliarization is Tolstoy’s story **Cholstomer**, narrated largely from the point of view of a horse.
+## Kholstomer and the word “mine”
 
-The narrator is a horse, and therefore observes the human world from an alien perspective. Naturally, it is a humanized horse, because it is still an intellectual and literary creation; nevertheless, its point of view does not coincide with the human one. It is precisely this otherness that produces defamiliarization.
+Tolstoy uses a related literary mechanism in _Kholstomer_, a story narrated largely from a horse's point of view. The animal understands pain and labor, but private property makes no sense to him. Humans repeatedly say “mine” about land, buildings and even living beings, as though the word could transform their relationship with the world.
 
-The horse struggles to understand many forms of human behavior. One of the central themes is **private property**. The horse does not possess the concept of private property. It can understand whipping, because that also concerns animals, but private property does not belong to its experience.
-
-He hears humans constantly repeating the adjective “mine,” applying it to land, air, objects, and things that, from his point of view, belong to no one. He does not understand why human beings attach so much importance to the possibility of saying “mine” about as many things as possible.
-
-From the horse’s point of view, humans seem to be engaged in a linguistic game: they consider the happiest person to be the one who can say “mine” about the greatest number of things. But the horse never arrives at the idea of actual possession, which for us is taken for granted.
-
-Through this alien perspective, Tolstoy reveals, by diffraction, the absurdity of the concept of private property. The horse cannot understand how one living being can possess something else. He does not perceive its meaning and does not understand why humans are so obstinate in this game of words.
-
-The horse’s worldview is incompatible with the human one. The reader must struggle to understand what Cholstomer is trying to say. They must return to the same point several times. But precisely this effort produces an important effect: at the moment when the reader recognizes the object of the discourse — that is, private property — it is returned to them as if they were seeing it for the first time.
-
-
+By forcing the reader to reconstruct a familiar idea from an unfamiliar perspective, Tolstoy makes ownership strange again. Bisson does the same with flesh; Leiter does it with weights. In every case, defamiliarization returns an ordinary concept to us as if we were seeing it for the first time.
