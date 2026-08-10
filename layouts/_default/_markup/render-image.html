@@ -27,7 +27,10 @@
 ) -}}
 
 {{- with $resource -}}
-  {{- $attributes = merge $attributes (dict "width" .Width "height" .Height) -}}
+  {{- $attributes = merge $attributes (dict
+    "width" (printf "%d" .Width)
+    "height" (printf "%d" .Height)
+  ) -}}
 {{- end -}}
 
 <img

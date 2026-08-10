@@ -12,6 +12,7 @@ images = ["Pasted image 20260604082958.jpg"]
 image = "Pasted image 20260604082958.jpg"
 alt = "Uno scoiattolo corre sul bordo di un muro"
 caption = "Un incontro lungo il percorso."
+relative = true
 +++
 
 ## Bilancio della giornata

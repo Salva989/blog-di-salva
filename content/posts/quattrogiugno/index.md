@@ -12,6 +12,7 @@ images = ["Gemini_Generated_Image_jn7azxjn7azxjn7a.png"]
 image = "Gemini_Generated_Image_jn7azxjn7azxjn7a.png"
 alt = "Pixel-art aliens examining a human being"
 caption = "Thinking meat, seen from the outside."
+relative = true
 +++
 
 In Terry Bisson's short story _They're Made Out of Meat_, two intelligent beings discover that humans are entirely biological and react with disbelief:

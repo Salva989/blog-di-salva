@@ -1,11 +1,18 @@
 +++
 title = "Che cosa si costruisce con 2,50 euro di AI?"
 date = "2026-07-25T09:30:00+02:00"
-lastmod = "2026-08-10T15:59:56+02:00"
+lastmod = "2026-08-10T16:30:00+02:00"
 draft = false
 description = "Un esperimento a budget minimo: landing page, flusso ordini e tre video per promuovere una console retro."
 tags = ["Kimi K3", "AI coding", "retro gaming", "video generativo"]
 categories = ["Esperimenti"]
+images = ["landing-finale.png"]
+
+[cover]
+image = "landing-finale.png"
+alt = "Landing page RetroX con una console portatile bianca"
+caption = "La landing page al termine dell'esperimento."
+relative = true
 +++
 
 Quanto si riesce a costruire con pochi euro di credito per modelli AI? Ho provato a realizzare una piccola campagna per una console portatile da retrogaming: landing page, flusso ordini e video promozionali. Il limite non era soltanto economico. Volevo capire quali parti un modello potesse produrre bene in autonomia e dove fosse ancora necessario intervenire.
@@ -15,6 +22,8 @@ Il risultato finale è costato circa due dollari di API, oltre ai crediti gratui
 ## Il primo prompt era troppo grande
 
 La richiesta iniziale chiedeva a Kimi K3 un progetto React completo: design, animazioni, galleria, specifiche, recensioni, checkout, FAQ, accessibilità e metadata. Era un brief sensato per un team, ma troppo ampio per il budget disponibile in una singola risposta.
+
+![Prima richiesta usata per preparare il prompt della landing page](prompt-iniziale.png "La richiesta iniziale")
 
 La versione ridotta conservava soltanto ciò che serviva a impostare la pagina:
 
@@ -30,7 +39,13 @@ Make the project responsive, accessible and easy to edit.
 Do not imply that copyrighted ROMs are included.
 ```
 
+![Il brief ridotto salvato in VS Code prima dell'invio](prompt-vscode.png "Il prompt preparato in VS Code")
+
 Anche così, la risposta si è fermata dopo circa 2.600 token di output e ha consumato quasi tutto il credito impostato. Il problema non era che il modello non sapesse scrivere il codice; il risultato non poteva contenere, in così poco spazio, un'intera applicazione rifinita.
+
+![Il messaggio che segnala il limite di 2.600 token in uscita](limite-output.png "Il limite di output interrompe la prima risposta")
+
+![Il saldo OpenRouter dopo il primo tentativo](credito-openrouter.png "Il budget API è terminato")
 
 ## Cambiare strategia
 
@@ -43,11 +58,19 @@ Invece di chiedere nuovamente il progetto completo, ho separato il lavoro:
 
 Il primo output utile valeva circa 0,20 dollari di token. Era semplice, ma conteneva abbastanza materiale per smettere di lavorare su una pagina vuota. Da lì è stato più economico formulare richieste locali e precise: correggere una sovrapposizione, ridurre una sezione, sistemare la navigazione mobile.
 
+![La prima landing page generata da Kimi](prima-landing.png "La prima versione utile della landing page")
+
+![La landing RetroX dopo le correzioni grafiche](landing-finale.png "La versione desktop rifinita")
+
 La lezione è stata netta: con un budget piccolo, **un prompt non deve descrivere l'intero sogno; deve produrre il prossimo artefatto verificabile**.
 
 ## Dal prototipo agli ordini
 
 Una landing page gradevole non basta. Ho aggiunto un piccolo flusso che invia gli ordini a un bot Telegram con le informazioni necessarie per elaborarli. È una soluzione adatta a un esperimento con pochi ordini, non un sostituto universale di un backend e-commerce: pagamenti, dati personali, conferme e gestione degli errori richiedono controlli dedicati.
+
+![Il prompt usato per progettare checkout, Stripe e notifica Telegram](prompt-checkout.png "La richiesta per il flusso di pagamento")
+
+![Un ordine di test confermato dal bot Telegram](ordine-telegram.png "Il bot riceve un evento di pagamento di test")
 
 Prima di considerare pronta la pagina ho dovuto intervenire sui problemi che il modello non vedeva nel suo output testuale:
 
@@ -56,6 +79,8 @@ Prima di considerare pronta la pagina ho dovuto intervenire sui problemi che il 
 - specifiche del prodotto da verificare;
 - pulsanti e collegamenti senza uno stato d'errore;
 - messaggi commerciali troppo generici.
+
+![La landing RetroX provata su Safari mobile](test-mobile.png "Verifica della landing su uno schermo mobile")
 
 Questa fase ha richiesto meno token e più giudizio. Il codice generato era un materiale di partenza, non una decisione definitiva.
 
@@ -73,7 +98,15 @@ Negative prompt: do not deform the console, alter the button layout,
 add controls, distort the screen or change the background.
 ```
 
+![Il prompt video inserito in Google AI Studio](prompt-video-veo.png "Prima prova del prompt video con Veo")
+
 Dopo aver verificato che non avevo altri crediti nel primo servizio, sono passato a CapCut e ho usato il credito gratuito per più generazioni. Questo ha reso possibile confrontare varianti, invece di accettare il primo video soltanto perché era costato denaro.
+
+![Il prompt video trasferito nell'interfaccia di CapCut](capcut-video.png "Generazione dello spot in CapCut")
+
+Per una delle varianti ho preparato anche un'immagine di riferimento più vicina all'estetica del canale. Il risultato era vistoso, ma utile per capire quanto una reference possa spostare tono e pubblico percepito della stessa campagna.
+
+![Personaggio anime in una stanza da retrogaming con una console portatile](reference-ad.png "Una reference alternativa per lo spot")
 
 ## Pubblicazione
 

@@ -12,6 +12,7 @@ images = ["Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg"]
 image = "Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg"
 alt = "Annie Girardot and Alain Delon on the Milan Cathedral set of Rocco and His Brothers"
 caption = "On the set of Rocco and His Brothers."
+relative = true
 +++
 
 I had never watched _Rocco and His Brothers_. I had to divide it into three evenings, but as soon as it ended I began my usual search through locations, reviews and fragments of its history. I needed to understand what had happened and put the emotional experience of the film in order.
