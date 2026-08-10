@@ -1,13 +1,17 @@
 baseURL = 'https://salva989.github.io/blog-di-salva/'
-languageCode = 'en-us'
-title = 'blog di Salva'
+languageCode = 'it-IT'
+defaultContentLanguage = 'it'
+title = 'Il blog di Salva'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [params]
   # Basic configuration
   env = "production"
-  description = "Un blog moderno e veloce con Hugo e PaperMod"
+  description = "Appunti su tecnologia, cinema, videogiochi, cultura e vita quotidiana."
   author = "Salva989"
+  mainSections = ["posts"]
+  images = ["https://avatars.githubusercontent.com/u/179056148?v=4"]
   
   # Theme-specific settings
   ShowReadingTime = true
@@ -33,6 +37,10 @@ theme = 'PaperMod'
   imageUrl = "https://avatars.githubusercontent.com/u/179056148?v=4"
   imageWidth = 120
   imageHeight = 120
+
+[params.cover]
+  linkFullImages = true
+  responsiveImages = true
 
 [params.homeInfoParams]
   Title = "Ciaoo 👋"

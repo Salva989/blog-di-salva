@@ -118,20 +118,6 @@
             }
           },
           {
-            "id": "657faf8e267e676c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grand theft auto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grand theft auto"
-            }
-          },
-          {
             "id": "68306bc1c2183edc",
             "type": "leaf",
             "state": {
@@ -160,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -337,16 +323,17 @@
   },
   "active": "af5cfde0ecfdbbc0",
   "lastOpenFiles": [
+    "Il monaco di tutte le storie.md",
+    "Grand theft auto.md",
+    "appunti di gastronomie.md",
+    "ambiti.md",
+    "_index.md",
     "integrazioni per server telefono.md",
     "Che cosa ottengo con 2,50 euro con kimi k3.md",
-    "Grand theft auto.md",
     "Ho visto Rocco e i suoi fratelli/index.md",
     "backend serverless.md",
     "dove conservare token autenticazione app web.md",
-    "appunti di gastronomie.md",
     "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg",
-    "Il monaco di tutte le storie.md",
-    "ambiti.md",
     "Ho visto Rocco e i suoi fratelli/Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg",
     "quattrogiugno/index.md",
     "quattrogiugno/Gemini_Generated_Image_jn7azxjn7azxjn7a.png",
@@ -375,7 +362,6 @@
     "Iching response.md",
     "il-re-tiranno.md",
     "jack-conte-talk.md",
-    "jackcont.md",
-    "Jiang 28 storia predittiva.md"
+    "jackcont.md"
   ]
 }
