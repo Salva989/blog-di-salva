@@ -1,0 +1,379 @@
+Sì. Io lo implementerei **a strati**, senza copiare subito tutta la complessità dell’articolo. La struttura finale sarebbe:
+
+```text
+                    INTERNET
+                       │
+                 Cloudflare
+                       │
+                Cloudflare Tunnel
+                       │
+                  TELEFONO
+                 ┌─────┴─────┐
+                 │           │
+             app :3000    app :8000
+                 
+PC ── Tailscale ──► telefono ──► SSH/Termux
+```
+
+Cloudflare Tunnel è adatto proprio a questo: `cloudflared` crea una connessione **in uscita** dal telefono verso Cloudflare, quindi non serve IP statico né port forwarding sul router. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/index.md?utm_source=chatgpt.com "https://developers.cloudflare.com/tunnel/index.md"))
+
+1. **Prepara Termux.** Se lo hai già puoi saltare l'installazione. Il progetto Termux raccomanda attualmente F-Droid o le release ufficiali GitHub; inoltre esistono direttamente nei repository Termux i pacchetti `openssh`, `cloudflared` e `caddy`. ([GitHub](https://github.com/termux/termux-app/blob/master/README.md?utm_source=chatgpt.com "termux-app/README.md at master · termux/termux-app · GitHub"))
+    
+
+Dentro Termux:
+
+```bash
+pkg update
+pkg upgrade
+
+pkg install openssh cloudflared curl git
+```
+
+Per ora **non installerei nemmeno Caddy**.
+
+Avvia SSH:
+
+```bash
+sshd
+```
+
+Controlla quale porta sta usando:
+
+```bash
+sshd -T | grep '^port '
+```
+
+e il tuo username Termux:
+
+```bash
+whoami
+```
+
+Per esempio potresti ottenere:
+
+```text
+port 8022
+u0_a123
+```
+
+2. **Installa Tailscale sul telefono e sul PC.** Accedi con lo stesso account su entrambi. Tailscale supporta Android 8 o successivo. ([Tailscale](https://tailscale.com/docs/install/android?utm_source=chatgpt.com "Install Tailscale on Android · Tailscale Docs"))
+    
+
+Nell'app Tailscale del telefono vedrai un IP simile a:
+
+```text
+100.90.40.20
+```
+
+Dal computer potrai quindi entrare nel telefono:
+
+```bash
+ssh -p 8022 u0_a123@100.90.40.20
+```
+
+sostituendo porta, username e IP con i tuoi.
+
+Questa è una distinzione importante: su Android userei **il normale `sshd` di Termux attraverso la rete Tailscale**, non la funzione "Tailscale SSH". Il server integrato Tailscale SSH non è disponibile nell'app Android; è disponibile su piattaforme server supportate come Linux e macOS CLI. ([Tailscale](https://tailscale.com/docs/features/tailscale-ssh?utm_source=chatgpt.com "Tailscale SSH · Tailscale Docs"))
+
+Quindi hai già ottenuto:
+
+```text
+PC
+ ↓
+Tailscale
+ ↓
+Telefono
+ ↓
+Termux / SSH
+```
+
+senza aprire SSH su Internet.
+
+3. **Pubblica una tua applicazione con Cloudflare Tunnel.** Immaginiamo che sul telefono tu abbia una app Node/FastAPI/Deno che gira su:
+    
+
+```text
+127.0.0.1:3000
+```
+
+Per esempio:
+
+```bash
+curl http://127.0.0.1:3000
+```
+
+deve rispondere.
+
+Poi:
+
+```bash
+cloudflared tunnel login
+```
+
+crea il tunnel:
+
+```bash
+cloudflared tunnel create telefono
+```
+
+e guarda l'ID:
+
+```bash
+cloudflared tunnel list
+```
+
+Supponiamo che il dominio sia:
+
+```text
+server.tuodominio.it
+```
+
+associalo al tunnel:
+
+```bash
+cloudflared tunnel route dns telefono server.tuodominio.it
+```
+
+Cloudflare supporta proprio la mappatura di un hostname pubblico verso un servizio locale come `localhost:3000`. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/index.md?utm_source=chatgpt.com "https://developers.cloudflare.com/tunnel/index.md"))
+
+Crea:
+
+```bash
+mkdir -p ~/.cloudflared
+nano ~/.cloudflared/config.yml
+```
+
+con:
+
+```yaml
+tunnel: ID-DEL-TUNNEL
+credentials-file: /data/data/com.termux/files/home/.cloudflared/ID-DEL-TUNNEL.json
+
+ingress:
+  - hostname: server.tuodominio.it
+    service: http://127.0.0.1:3000
+
+  - service: http_status:404
+```
+
+Poi:
+
+```bash
+cloudflared tunnel run telefono
+```
+
+Adesso:
+
+```text
+https://server.tuodominio.it
+```
+
+arriva a:
+
+```text
+Internet
+ ↓
+Cloudflare
+ ↓
+Tunnel
+ ↓
+telefono
+ ↓
+127.0.0.1:3000
+```
+
+e **non devi aprire la porta 3000 sul router**. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/?utm_source=chatgpt.com "Cloudflare Tunnel · Cloudflare Docs"))
+
+4. **Se hai più applicazioni, non serve ancora Caddy.** Cloudflare Tunnel può già smistarle:
+    
+
+```yaml
+ingress:
+  - hostname: sito.tuodominio.it
+    service: http://127.0.0.1:3000
+
+  - hostname: api.tuodominio.it
+    service: http://127.0.0.1:8000
+
+  - hostname: admin.tuodominio.it
+    service: http://127.0.0.1:5000
+
+  - service: http_status:404
+```
+
+Quindi:
+
+```text
+sito.tuodominio.it
+        ↓
+     :3000
+
+api.tuodominio.it
+        ↓
+     :8000
+
+admin.tuodominio.it
+        ↓
+     :5000
+```
+
+Per il tuo caso questa è probabilmente la soluzione **più semplice**.
+
+Caddy lo aggiungerei solo quando vuoi qualcosa di più strutturato. Caddy può fare da reverse proxy verso diversi backend locali. ([Caddy Web Server](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy?utm_source=chatgpt.com "reverse_proxy (Caddyfile directive) — Caddy Documentation"))
+
+In quel caso diventerebbe:
+
+```text
+Cloudflare
+    ↓
+cloudflared
+    ↓
+Caddy
+    ├── :3000
+    ├── :8000
+    └── :5000
+```
+
+Termux ha già un pacchetto Caddy, quindi:
+
+```bash
+pkg install caddy
+```
+
+([GitHub](https://github.com/termux/termux-packages/blob/master/packages/caddy/build.sh?utm_source=chatgpt.com "termux-packages/packages/caddy/build.sh at master · termux/termux-packages · GitHub"))
+
+5. **Fai partire tutto automaticamente quando il telefono si riavvia.** Qui installerei **Termux:Boot**. È progettato precisamente per eseguire script all'avvio di Android. La documentazione ufficiale mostra anche l'esempio di avvio automatico di `sshd` e l'uso di `termux-wake-lock`. ([GitHub](https://github.com/termux/termux-boot/blob/master/README.md?utm_source=chatgpt.com "termux-boot/README.md at master · termux/termux-boot · GitHub"))
+    
+
+Dopo aver installato Termux:Boot, aprilo almeno una volta.
+
+Poi:
+
+```bash
+mkdir -p ~/.termux/boot
+nano ~/.termux/boot/server
+```
+
+puoi iniziare con:
+
+```bash
+#!/data/data/com.termux/files/usr/bin/sh
+
+termux-wake-lock
+
+sshd
+
+cloudflared tunnel run telefono &
+```
+
+Rendilo eseguibile:
+
+```bash
+chmod +x ~/.termux/boot/server
+```
+
+E nelle impostazioni Android togli l'ottimizzazione batteria per Termux/Tailscale/Termux:Boot, perché Android può altrimenti terminare processi in background; anche il progetto Termux richiama esplicitamente questo problema. ([GitHub](https://github.com/termux/termux-app/blob/master/README.md?utm_source=chatgpt.com "termux-app/README.md at master · termux/termux-app · GitHub"))
+
+A questo punto hai già una macchina piuttosto seria:
+
+```text
+Accendo telefono
+      ↓
+Termux:Boot
+      ↓
+sshd + cloudflared
+      ↓
+┌──────────────────────┐
+│ SSH tramite Tailscale│
+│ Web tramite Cloudflare│
+└──────────────────────┘
+```
+
+6. **Solo dopo aggiungerei Ansible.** Qui arriviamo alla parte dell'articolo che secondo me vale davvero la pena copiare. Sul telefono:
+    
+
+```bash
+pkg install python
+```
+
+Sul tuo PC installi Ansible e crei per esempio:
+
+```text
+phone-server/
+├── inventory.ini
+├── phone.yml
+├── files/
+└── templates/
+```
+
+`inventory.ini`:
+
+```ini
+[phone]
+android ansible_host=100.90.40.20 ansible_port=8022 ansible_user=u0_a123 ansible_python_interpreter=/data/data/com.termux/files/usr/bin/python
+```
+
+Poi:
+
+```bash
+ansible phone -i inventory.ini -m ping
+```
+
+Ansible utilizza normalmente SSH per gestire host remoti ed è proprio pensato per portare una macchina verso uno stato dichiarato nel playbook. ([Ansible Documentazione](https://docs.ansible.com/projects/ansible/latest/inventory_guide/connection_details.html?utm_source=chatgpt.com "Connection methods and details — Ansible Community Documentation"))
+
+Dopo puoi creare:
+
+```bash
+ansible-playbook -i inventory.ini phone.yml
+```
+
+e far sì che `phone.yml` automaticamente crei directory, copi configurazioni, installi app, aggiorni file e riavvii solo ciò che è necessario.
+
+**Io quindi farei questa progressione:**
+
+```text
+FASE 1
+Termux
++ SSH
++ Tailscale
++ Cloudflare Tunnel
+
+       ↓
+
+FASE 2
+Termux:Boot
++ avvio automatico
++ health check
+
+       ↓
+
+FASE 3
+Caddy
+solo se hai molti servizi
+
+       ↓
+
+FASE 4
+Ansible
+configurazione riproducibile
+
+       ↓
+
+FASE 5
+release versionate
+current -> release
+rollback
+secrets con Ansible Vault
+```
+
+Per il tuo telefono, **partirei concretamente da Fase 1 e 2**. È già sufficiente per avere qualcosa di molto simile a un VPS: puoi spostare il telefono da un Wi-Fi all'altro, Tailscale continua a darti accesso amministrativo e `cloudflared`, una volta ristabilita la connessione Internet, può ristabilire il tunnel verso Cloudflare. ([Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/?utm_source=chatgpt.com "Cloudflare Tunnel · Cloudflare One docs"))
+
+Se vuoi replicare _esattamente_ l'architettura dell'articolo, il passo successivo che farei è costruirti **la cartella completa pronta da copiare su PC con `Makefile + Ansible + Cloudflare + SSH + health check + autostart`**, così alla fine avresti davvero comandi tipo:
+
+```bash
+make phone
+make phone-status
+make phone-edge-check
+```
+
+senza dover ricordare tutti questi comandi.
