@@ -130,23 +130,9 @@
               "icon": "lucide-file",
               "title": "integrazioni per server telefono"
             }
-          },
-          {
-            "id": "af5cfde0ecfdbbc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Che cosa ottengo con 2,50 euro con kimi k3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Che cosa ottengo con 2,50 euro con kimi k3"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -321,8 +307,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af5cfde0ecfdbbc0",
+  "active": "68306bc1c2183edc",
   "lastOpenFiles": [
+    "Che cosa ottengo con 2,50 euro con kimi k3.md",
+    "backend serverless.md",
     "tregiugno/index.md",
     "quattrogiugno/index.md",
     "Ho visto Rocco e i suoi fratelli/index.md",
@@ -332,8 +320,6 @@
     "ambiti.md",
     "_index.md",
     "integrazioni per server telefono.md",
-    "Che cosa ottengo con 2,50 euro con kimi k3.md",
-    "backend serverless.md",
     "dove conservare token autenticazione app web.md",
     "Museo_cristiano_e_tesoro_del_duomo_di_Cividale_del_Friuli_-_Ara_di_Ratchis_-_La_Visitazione_(737-744_d.C.).jpg",
     "Ho visto Rocco e i suoi fratelli/Rocco-e-i-suoi-fratelli-set-luchino-visconti.jpg",
