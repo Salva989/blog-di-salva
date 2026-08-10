@@ -25,7 +25,7 @@ Un telefono Android inutilizzato può ospitare piccoli servizi personali senza i
 PC ── Tailscale ──► telefono ──► SSH/Termux
 ```
 
-Cloudflare Tunnel è adatto proprio a questo: `cloudflared` crea una connessione **in uscita** dal telefono verso Cloudflare, quindi non serve IP statico né port forwarding sul router. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/index.md?utm_source=chatgpt.com "https://developers.cloudflare.com/tunnel/index.md"))
+Cloudflare Tunnel è adatto proprio a questo: `cloudflared` crea una connessione **in uscita** dal telefono verso Cloudflare, quindi non serve IP statico né port forwarding sul router. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/ "Cloudflare Tunnel"))
 
 ## 1. Preparare Termux
 
@@ -87,7 +87,7 @@ ssh -p 8022 u0_a123@100.90.40.20
 
 sostituendo porta, username e IP con i tuoi.
 
-Questa è una distinzione importante: su Android userei **il normale `sshd` di Termux attraverso la rete Tailscale**, non la funzione "Tailscale SSH". Il server integrato Tailscale SSH non è disponibile nell'app Android; è disponibile su piattaforme server supportate come Linux e macOS CLI. ([Tailscale](https://tailscale.com/docs/features/tailscale-ssh?utm_source=chatgpt.com "Tailscale SSH · Tailscale Docs"))
+Questa è una distinzione importante: su Android userei **il normale `sshd` di Termux attraverso la rete Tailscale**, non la funzione "Tailscale SSH". Il server integrato Tailscale SSH non è disponibile nell'app Android; è disponibile su piattaforme server supportate come Linux e macOS CLI. ([Tailscale](https://tailscale.com/docs/features/tailscale-ssh "Tailscale SSH"))
 
 Quindi hai già ottenuto:
 
@@ -150,7 +150,7 @@ associalo al tunnel:
 cloudflared tunnel route dns telefono server.tuodominio.it
 ```
 
-Cloudflare supporta proprio la mappatura di un hostname pubblico verso un servizio locale come `localhost:3000`. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/index.md?utm_source=chatgpt.com "https://developers.cloudflare.com/tunnel/index.md"))
+Cloudflare supporta proprio la mappatura di un hostname pubblico verso un servizio locale come `localhost:3000`. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/ "Cloudflare Tunnel"))
 
 Crea:
 
@@ -198,7 +198,7 @@ telefono
 127.0.0.1:3000
 ```
 
-e **non devi aprire la porta 3000 sul router**. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/?utm_source=chatgpt.com "Cloudflare Tunnel · Cloudflare Docs"))
+e **non devi aprire la porta 3000 sul router**. ([Cloudflare Docs](https://developers.cloudflare.com/tunnel/ "Cloudflare Tunnel"))
 
 ## 4. Gestire più applicazioni
 
@@ -237,7 +237,7 @@ admin.tuodominio.it
 
 Per il tuo caso questa è probabilmente la soluzione **più semplice**.
 
-Caddy lo aggiungerei solo quando vuoi qualcosa di più strutturato. Caddy può fare da reverse proxy verso diversi backend locali. ([Caddy Web Server](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy?utm_source=chatgpt.com "reverse_proxy (Caddyfile directive) — Caddy Documentation"))
+Caddy lo aggiungerei solo quando vuoi qualcosa di più strutturato. Caddy può fare da reverse proxy verso diversi backend locali. ([Caddy Web Server](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy "Caddy reverse proxy"))
 
 In quel caso diventerebbe:
 
@@ -258,7 +258,7 @@ Termux ha già un pacchetto Caddy, quindi:
 pkg install caddy
 ```
 
-([GitHub](https://github.com/termux/termux-packages/blob/master/packages/caddy/build.sh?utm_source=chatgpt.com "termux-packages/packages/caddy/build.sh at master · termux/termux-packages · GitHub"))
+([GitHub](https://github.com/termux/termux-packages/blob/master/packages/caddy/build.sh "Caddy package for Termux"))
 
 ## 5. Avviare i servizi al riavvio
 
@@ -292,7 +292,7 @@ Rendilo eseguibile:
 chmod +x ~/.termux/boot/server
 ```
 
-E nelle impostazioni Android togli l'ottimizzazione batteria per Termux/Tailscale/Termux:Boot, perché Android può altrimenti terminare processi in background; anche il progetto Termux richiama esplicitamente questo problema. ([GitHub](https://github.com/termux/termux-app/blob/master/README.md?utm_source=chatgpt.com "termux-app/README.md at master · termux/termux-app · GitHub"))
+E nelle impostazioni Android togli l'ottimizzazione batteria per Termux/Tailscale/Termux:Boot, perché Android può altrimenti terminare processi in background; anche il progetto Termux richiama esplicitamente questo problema. ([GitHub](https://github.com/termux/termux-app/blob/master/README.md "Termux app README"))
 
 A questo punto hai già una macchina piuttosto seria:
 
@@ -341,7 +341,7 @@ Poi:
 ansible phone -i inventory.ini -m ping
 ```
 
-Ansible utilizza normalmente SSH per gestire host remoti ed è proprio pensato per portare una macchina verso uno stato dichiarato nel playbook. ([Ansible Documentazione](https://docs.ansible.com/projects/ansible/latest/inventory_guide/connection_details.html?utm_source=chatgpt.com "Connection methods and details — Ansible Community Documentation"))
+Ansible utilizza normalmente SSH per gestire host remoti ed è proprio pensato per portare una macchina verso uno stato dichiarato nel playbook. ([Documentazione Ansible](https://docs.ansible.com/projects/ansible/latest/inventory_guide/connection_details.html "Connection methods and details"))
 
 Dopo puoi creare:
 
@@ -388,7 +388,7 @@ rollback
 secrets con Ansible Vault
 ```
 
-Per il tuo telefono, **partirei concretamente da Fase 1 e 2**. È già sufficiente per avere qualcosa di molto simile a un VPS: puoi spostare il telefono da un Wi-Fi all'altro, Tailscale continua a darti accesso amministrativo e `cloudflared`, una volta ristabilita la connessione Internet, può ristabilire il tunnel verso Cloudflare. ([Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/?utm_source=chatgpt.com "Cloudflare Tunnel · Cloudflare One docs"))
+Per il tuo telefono, **partirei concretamente da Fase 1 e 2**. È già sufficiente per avere qualcosa di molto simile a un VPS: puoi spostare il telefono da un Wi-Fi all'altro, Tailscale continua a darti accesso amministrativo e `cloudflared`, una volta ristabilita la connessione Internet, può ristabilire il tunnel verso Cloudflare. ([Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/ "Cloudflare Tunnel"))
 
 Il passo successivo è raccogliere configurazione e controlli in una cartella versionata con `Makefile`, Ansible, health check e script di avvio, così da ottenere comandi ripetibili come:
 
