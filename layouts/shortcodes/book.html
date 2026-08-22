@@ -1,6 +1,10 @@
+{{- $cover := .Page.Resources.GetMatch (.Get "cover") -}}
 <article class="book-card">
-  <span class="book-mark" aria-hidden="true"></span>
-  <div>
+  {{- with $cover -}}
+    {{- $display := .Fit "360x520 webp q82" -}}
+    <img class="book-cover" src="{{ $display.RelPermalink }}" width="{{ $display.Width }}" height="{{ $display.Height }}" alt="Copertina di {{ $.Get "title" }}" loading="lazy">
+  {{- end }}
+  <div class="book-card-copy">
     <h2>{{ .Get "title" }}</h2>
     <p>{{ .Get "author" }}</p>
   </div>
