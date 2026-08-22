@@ -12,3 +12,103 @@
 .entry-cover img {
     width: 100%;
 }
+
+/* Raccolte personali: video, foto e libri */
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem;
+    margin: 2rem 0;
+}
+
+.favorite-card {
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--entry);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 6%);
+}
+
+.favorite-card figcaption {
+    padding: 0.85rem 1rem;
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+.favorite-card figcaption a {
+    color: var(--primary);
+    box-shadow: none;
+}
+
+.video-frame {
+    position: relative;
+    padding-top: 56.25%;
+    background: #111;
+}
+
+.video-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.photo-card img {
+    display: block;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.bookshelf {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 2rem 0;
+}
+
+.book-card {
+    position: relative;
+    display: flex;
+    min-height: 116px;
+    overflow: hidden;
+    padding: 1.15rem 1.2rem 1.15rem 1.55rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--entry);
+    box-shadow: 0 5px 16px rgb(0 0 0 / 5%);
+}
+
+.book-mark {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 6px;
+    background: linear-gradient(180deg, #c87941, #7d4028);
+}
+
+.book-card h2 {
+    margin: 0 0 0.35rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    line-height: 1.3;
+}
+
+.book-card p {
+    margin: 0;
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 680px) {
+    .favorites-grid,
+    .bookshelf {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-card img {
+        height: auto;
+        max-height: 70vh;
+    }
+}

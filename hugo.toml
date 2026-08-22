@@ -68,3 +68,21 @@ enableRobotsTXT = true
     name = "About"
     url = "/about/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "video"
+    name = "Video"
+    url = "/video/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "foto"
+    name = "Foto"
+    url = "/foto/"
+    weight = 50
+
+  [[menu.main]]
+    identifier = "libri"
+    name = "Libri"
+    url = "/libri/"
+    weight = 60

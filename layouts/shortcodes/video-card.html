@@ -1,0 +1,16 @@
+{{- $id := .Get "id" -}}
+{{- $label := .Get "label" | default "Guarda il video" -}}
+<figure class="favorite-card video-card">
+  <div class="video-frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ $id }}"
+      title="{{ $label }}"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <figcaption>
+    <a href="https://youtu.be/{{ $id }}" target="_blank" rel="noopener noreferrer">{{ $label }} ↗</a>
+  </figcaption>
+</figure>

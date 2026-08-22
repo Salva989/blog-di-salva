@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- if $image -}}
+  {{- $display := $image -}}
+  {{- if gt $image.Width 1400 -}}
+    {{- $display = $image.Resize "1400x webp q85" -}}
+  {{- end -}}
+<figure class="favorite-card photo-card">
+  <a href="{{ $image.RelPermalink }}" target="_blank" aria-label="Apri la foto a dimensione intera">
+    <img src="{{ $display.RelPermalink }}" width="{{ $display.Width }}" height="{{ $display.Height }}" alt="{{ .Get "alt" }}" loading="lazy">
+  </a>
+  {{- with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end -}}
+</figure>
+{{- end -}}
