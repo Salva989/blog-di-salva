@@ -12,7 +12,7 @@ Il momento della giostra è poi di una bellezza straordinaria : le donne amate, 
 
  Indimenticabile l’attrice con quel leggero accento napoletano. La dea-dirigibile è un’immagine assurda, maestosa e indimenticabile. È una di quelle immagini che restano nella mente anche dopo la fine.
 
-Voto: 10/10.
+Voto: 7/10.
 
 
 
