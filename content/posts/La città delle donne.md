@@ -1,6 +1,18 @@
++++
+title = "La città delle donne"
+date = "2026-08-27T17:51:10+02:00"
+lastmod = "2026-08-28T11:14:51+02:00"
+draft = false
+description = "Una visione personale di La città delle donne di Federico Fellini, tra viaggio onirico, Dottor Katzone e immagini indimenticabili."
+tags = ["Federico Fellini", "La città delle donne", "cinema italiano"]
+categories = ["Cinema"]
++++
+
 È bello poter cambiare film preferito una volta al mese. Significa che esistono ancora opere capaci di sorprenderti, di conquistarti e di occupare immediatamente un posto speciale nella tua memoria. Da oggi _La città delle donne_ è il mio nuovo film preferito.
 
 Non mi interessa sapere cosa ne abbiano scritto gli altri, quali interpretazioni ne abbiano dato o quali difetti gli abbiano attribuito: questo film mi ha travolto e tanto mi basta.
+
+![[Pasted image 20260827181146.jpg]]
 
 È un viaggio onirico, caotico e meraviglioso. Tutto può cambiare improvvisamente, una stanza si trasforma in un palcoscenico, un incontro diventa un processo e una festa assume l’aspetto di un ricordo deformato.
 
@@ -13,6 +25,5 @@ Il momento della giostra è poi di una bellezza straordinaria : le donne amate, 
  Indimenticabile l’attrice con quel leggero accento napoletano. La dea-dirigibile è un’immagine assurda, maestosa e indimenticabile. È una di quelle immagini che restano nella mente anche dopo la fine.
 
 Voto: 7/10.
-
 
 

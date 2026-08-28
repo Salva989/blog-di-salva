@@ -16,4 +16,6 @@ Una piccola raccolta di video che mi sono piaciuti molto. La aggiornerò nel tem
 {{< video-card id="_nByvrXxmDc" label="Guarda l'ottavo video" >}}
 {{< video-card id="0XwTRTGFQJM" label="Guarda il nono video" >}}
 {{< video-card id="I1fQ-3-CEFg" label="Guarda il decimo video" >}}
+{{< video-card id="FNZhxTtOL-I" label="Guarda l'undicesimo video" >}}
+{{< video-card id="Dq3R3uS0sQ4" label="Guarda il dodicesimo video" >}}
 {{< /card-grid >}}

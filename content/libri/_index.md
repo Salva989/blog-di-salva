@@ -30,4 +30,8 @@ Storie, saggi e libri che hanno accompagnato il mio percorso.
 {{< book title="L'isola di Arturo" author="Elsa Morante" cover="covers/isola-arturo.jpg" >}}
 {{< book title="Il Vangelo secondo Gesù Cristo" author="José Saramago" cover="covers/vangelo-gesu-cristo.jpg" >}}
 {{< book title="Psicologia alchemica" author="James Hillman" cover="covers/psicologia-alchemica.jpg" >}}
+{{< book title="La società della performance. Come uscire dalla caverna" author="Maura Gancitano e Andrea Colamedici" cover="covers/societa-performance.jpg" >}}
+{{< book title="Io sono vivo, voi siete morti" author="Emmanuel Carrère" cover="covers/io-sono-vivo.jpg" >}}
+{{< book title="Amore liquido" author="Zygmunt Bauman" cover="covers/amore-liquido.jpg" >}}
+{{< book title="Modernità liquida" author="Zygmunt Bauman" cover="covers/modernita-liquida.jpg" >}}
 {{< /card-grid >}}
